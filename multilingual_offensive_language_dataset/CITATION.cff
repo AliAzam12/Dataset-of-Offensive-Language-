@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it using the metadata below."
+title: "Multilingual Offensive Language Detection Dataset"
+version: "1.0.0"
+date-released: "2026-06-04"
+authors:
+  - family-names: "Azam"
+    given-names: "Ali"
+repository-code: "https://github.com/AliAzam12/Dataset-of-Offensive-Language-"
+url: "https://github.com/AliAzam12/Dataset-of-Offensive-Language-"
+keywords:
+  - offensive language detection
+  - multilingual NLP
+  - Roman Urdu
+  - Pashto
+  - Urdu
+  - English
+  - text classification
+license: "CC-BY-4.0"
