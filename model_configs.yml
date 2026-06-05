@@ -1,0 +1,71 @@
+task:
+  name: multilingual_offensive_language_detection
+  label_column: final_label
+  text_column: clean_text
+  labels:
+    non_offensive: 0
+    offensive: 1
+
+splits:
+  train: "train data.csv"
+  validation: "validation data.csv"
+  test: "test data.csv"
+
+metrics:
+  primary: macro_f1
+  secondary:
+    - accuracy
+    - precision_macro
+    - recall_macro
+
+traditional_ml:
+  tfidf:
+    word_ngram_range: [1, 2]
+    char_ngram_range: [3, 5]
+    max_features: 100000
+    min_df: 2
+  models:
+    logistic_regression:
+      class_weight: balanced
+      max_iter: 1000
+    svm:
+      class_weight: balanced
+      kernel: linear
+    random_forest:
+      n_estimators: 300
+      random_state: 42
+    naive_bayes:
+      alpha: 1.0
+
+deep_learning:
+  max_sequence_length: 128
+  optimizer: adam
+  loss: cross_entropy
+  model_selection: best_validation_macro_f1
+
+transformers:
+  max_sequence_length: 128
+  batch_size: 16
+  learning_rate: 0.00002
+  epochs: 5
+  optimizer: adamw
+  model_selection: best_validation_macro_f1
+  candidate_models:
+    - bert-base-multilingual-cased
+    - xlm-roberta-base
+    - google/muril-base-cased
+    - ai4bharat/indic-bert
+
+qlora:
+  max_sequence_length: 128
+  batch_size: 8
+  gradient_accumulation_steps: 4
+  effective_batch_size: 32
+  learning_rate: 0.0001
+  epochs: 3
+  lora_rank: 16
+  lora_alpha: 32
+  lora_dropout: 0.05
+  quantization: 4bit
+  compute_dtype: bfloat16
+  model_selection: best_validation_macro_f1
