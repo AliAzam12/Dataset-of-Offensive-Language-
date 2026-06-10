@@ -14,10 +14,10 @@ Exact label totals:
 - Non-offensive: 59,104
 
 Files:
-- multilingual_offensive_language_full.csv
-- multilingual_offensive_language_train.csv
-- multilingual_offensive_language_validation.csv
-- multilingual_offensive_language_test.csv
+- full data.csv
+- train data.csv
+- validation data.csv
+- test data.csv
 - dataset_summary_counts.csv
 
 Columns:
