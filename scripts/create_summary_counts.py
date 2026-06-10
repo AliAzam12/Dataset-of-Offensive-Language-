@@ -19,7 +19,11 @@ def main() -> None:
     parser.add_argument("--label-column", default="final_label")
     args = parser.parse_args()
 
-    df = pd.read_csv(args.data)
+    data_path = Path(args.data)
+    if not data_path.exists():
+        raise FileNotFoundError(f"File not found: {data_path}")
+
+    df = pd.read_csv(data_path)
 
     if args.language_column not in df.columns:
         raise ValueError(f"Language column not found: {args.language_column}")
@@ -41,10 +45,20 @@ def main() -> None:
         .reset_index()
     )
 
-    pivot["total"] = pivot.drop(columns=[args.language_column]).sum(axis=1)
-    pivot.to_csv(args.output, index=False, encoding="utf-8")
+    label_columns = [col for col in pivot.columns if col != args.language_column]
+    pivot["total"] = pivot[label_columns].sum(axis=1)
 
-    print(f"Saved summary counts to: {args.output}")
+    total_row = {args.language_column: "Total"}
+    for col in label_columns:
+        total_row[col] = int(pivot[col].sum())
+    total_row["total"] = int(pivot["total"].sum())
+
+    pivot = pd.concat([pivot, pd.DataFrame([total_row])], ignore_index=True)
+
+    output_path = Path(args.output)
+    pivot.to_csv(output_path, index=False, encoding="utf-8")
+
+    print(f"Saved summary counts to: {output_path}")
     print(pivot.to_string(index=False))
 
 

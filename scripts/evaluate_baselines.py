@@ -14,29 +14,41 @@ import argparse
 from pathlib import Path
 
 import pandas as pd
+from sklearn.ensemble import RandomForestClassifier
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import accuracy_score, classification_report, f1_score, precision_score, recall_score
+from sklearn.metrics import (
+    accuracy_score,
+    classification_report,
+    f1_score,
+    precision_score,
+    recall_score,
+)
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.pipeline import FeatureUnion, Pipeline
 from sklearn.svm import LinearSVC
 
 
 def load_split(path: str, text_column: str, label_column: str) -> tuple[pd.Series, pd.Series]:
-    df = pd.read_csv(path)
+    file_path = Path(path)
+
+    if not file_path.exists():
+        raise FileNotFoundError(f"File not found: {file_path}")
+
+    df = pd.read_csv(file_path)
 
     if text_column not in df.columns:
-        # Fallback to original text if clean_text is not present.
         if text_column == "clean_text" and "text" in df.columns:
             text_column = "text"
         else:
-            raise ValueError(f"Text column not found in {path}: {text_column}")
+            raise ValueError(f"Text column not found in {file_path}: {text_column}")
 
     if label_column not in df.columns:
-        raise ValueError(f"Label column not found in {path}: {label_column}")
+        raise ValueError(f"Label column not found in {file_path}: {label_column}")
 
     x = df[text_column].fillna("").astype(str)
     y = df[label_column].astype(str)
+
     return x, y
 
 
@@ -57,17 +69,21 @@ def build_features() -> FeatureUnion:
         sublinear_tf=True,
     )
 
-    return FeatureUnion([
-        ("word_tfidf", word_tfidf),
-        ("char_tfidf", char_tfidf),
-    ])
+    return FeatureUnion(
+        [
+            ("word_tfidf", word_tfidf),
+            ("char_tfidf", char_tfidf),
+        ]
+    )
 
 
 def evaluate_model(name: str, model, x_train, y_train, x_test, y_test) -> dict:
-    pipe = Pipeline([
-        ("features", build_features()),
-        ("classifier", model),
-    ])
+    pipe = Pipeline(
+        [
+            ("features", build_features()),
+            ("classifier", model),
+        ]
+    )
 
     pipe.fit(x_train, y_train)
     preds = pipe.predict(x_test)
@@ -84,6 +100,7 @@ def evaluate_model(name: str, model, x_train, y_train, x_test, y_test) -> dict:
     print(name)
     print("=" * 80)
     print(pd.Series(result).to_string())
+
     print("\nClassification report:")
     print(classification_report(y_test, preds, zero_division=0))
 
@@ -104,22 +121,57 @@ def main() -> None:
     x_valid, y_valid = load_split(args.valid, args.text_column, args.label_column)
     x_test, y_test = load_split(args.test, args.text_column, args.label_column)
 
-    # Combine train + validation for final baseline training after model selection.
     x_train_full = pd.concat([x_train, x_valid], ignore_index=True)
     y_train_full = pd.concat([y_train, y_valid], ignore_index=True)
 
     models = [
         ("Naive Bayes", MultinomialNB()),
-        ("Logistic Regression", LogisticRegression(max_iter=1000, class_weight="balanced")),
-        ("Linear SVM", LinearSVC(class_weight="balanced")),
+        (
+            "Logistic Regression",
+            LogisticRegression(
+                max_iter=1000,
+                class_weight="balanced",
+                random_state=42,
+            ),
+        ),
+        (
+            "Random Forest",
+            RandomForestClassifier(
+                n_estimators=200,
+                class_weight="balanced",
+                random_state=42,
+                n_jobs=-1,
+            ),
+        ),
+        (
+            "Linear SVM",
+            LinearSVC(
+                class_weight="balanced",
+                random_state=42,
+            ),
+        ),
     ]
 
     results = []
+
     for name, model in models:
-        results.append(evaluate_model(name, model, x_train_full, y_train_full, x_test, y_test))
+        result = evaluate_model(
+            name=name,
+            model=model,
+            x_train=x_train_full,
+            y_train=y_train_full,
+            x_test=x_test,
+            y_test=y_test,
+        )
+        results.append(result)
 
     results_df = pd.DataFrame(results).sort_values("macro_f1", ascending=False)
     results_df.to_csv(args.output, index=False)
+
+    print("\n" + "=" * 80)
+    print("Final baseline results")
+    print("=" * 80)
+    print(results_df.to_string(index=False))
     print(f"\nSaved results to: {args.output}")
 
 

@@ -10,11 +10,11 @@ The dataset was created to support research on multilingual offensive-language d
 
 It is intended to provide:
 
-* a reusable multilingual offensive-language resource;
-* a harmonised binary label space;
-* fixed train, validation, and test splits;
-* benchmark results across multiple model families;
-* a basis for comparing future systems under the same evaluation protocol.
+- a reusable multilingual offensive-language resource
+- a harmonised binary label space
+- fixed train, validation, and test splits
+- benchmark results across multiple model families
+- a basis for comparing future systems under the same evaluation protocol
 
 ### Who created the dataset?
 
@@ -32,10 +32,10 @@ Each instance represents a social media text sample labelled for offensive-langu
 
 ### What languages are included?
 
-* Urdu
-* Roman Urdu
-* Pashto
-* English
+- Urdu
+- Roman Urdu
+- Pashto
+- English
 
 ### How many instances are included?
 
@@ -43,18 +43,18 @@ Each instance represents a social media text sample labelled for offensive-langu
 
 ### What labels are included?
 
-* `offensive`
-* `non-offensive`
+- `offensive`
+- `non-offensive`
 
 ### What files are included?
 
-* `full data.csv`
-* `train data.csv`
-* `validation data.csv`
-* `test data.csv`
-* `dataset\_summary\_counts.csv`
-* `README\_DATASET.txt`
-* `CITATION.cff`
+- `full data.csv`
+- `train data.csv`
+- `validation data.csv`
+- `test data.csv`
+- `dataset_summary_counts.csv`
+- `README_DATASET.txt`
+- `CITATION.cff`
 
 ## Collection process
 
@@ -64,11 +64,11 @@ The corpus was constructed by combining heterogeneous offensive-language dataset
 
 ### Were labels newly annotated?
 
-The dataset primarily harmonises existing source labels into a common binary benchmark. If any additional manual review was performed for ambiguous labels. 
+The dataset primarily harmonises existing source labels into a common binary benchmark. Dataset-specific ambiguous labels were reviewed and mapped according to their original annotation meaning.
 
 ### Were any records removed?
 
-Empty or malformed records should be removed or corrected during corpus standardisation.
+Empty or malformed records were removed or corrected during corpus standardisation.
 
 ## Preprocessing
 
@@ -78,32 +78,29 @@ A conservative language-aware preprocessing pipeline was used. It reduces platfo
 
 Typical operations include:
 
-* removing URLs;
-* replacing or removing user mentions;
-* normalising duplicate spaces;
-* preserving Arabic-script characters for Urdu and Pashto;
-* reducing excessive repeated characters where appropriate;
-* preserving useful hashtags or informal markers when they carry meaning.
+- removing URLs
+- removing user mentions
+- normalising duplicate spaces
+- preserving Arabic-script characters for Urdu and Pashto
+- reducing excessive repeated characters where appropriate
+- preserving useful hashtags or informal markers when they carry meaning
 
 ## Recommended uses
 
 This dataset is suitable for:
 
-* multilingual offensive-language detection research;
-* low-resource NLP benchmarking;
-* code-mixed and Romanised text classification;
-* model comparison across traditional ML, deep learning, transformers, and LLM adaptation;
-* moderation-support research with appropriate human review.
+- multilingual offensive-language detection research
+- low-resource NLP benchmarking
+- code-mixed and Romanised text classification
+- model comparison across traditional ML, deep learning, transformers, and LLM adaptation
+- moderation-support research with appropriate human review
 
 ## Out-of-scope uses
 
 This dataset should not be used for:
 
-* harassment, profiling, or targeting individuals or groups;
-* generating harmful language;
-* commercial deployment without verifying source licences;
-* fully automated moderation decisions without bias testing and human oversight;
-* making broad claims about any language, ethnicity, nationality, or community.
-
-## 
-
+- harassment, profiling, or targeting individuals or groups
+- generating harmful language
+- commercial deployment without verifying source licences
+- fully automated moderation decisions without bias testing and human oversight
+- making broad claims about any language, ethnicity, nationality, or community

@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "Multilingual Offensive Language Resource and Benchmark for Low-Resource South Asian Social Media"
+message: "If you use this resource, please cite the associated paper and this repository."
+type: dataset
+authors:
+  - family-names: "Khattak"
+    given-names: "Muhammad Ali Azam"
+repository-code: "https://github.com/AliAzam12/Dataset-of-Offensive-Language-"
+keywords:
+  - offensive language detection
+  - multilingual NLP
+  - Urdu
+  - Roman Urdu
+  - Pashto
+  - low-resource languages
+  - benchmark
+license: "See repository licence and source dataset terms"

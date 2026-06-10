@@ -21,7 +21,7 @@ REPEATED_CHAR_RE = re.compile(r"(.)\1{3,}", flags=re.UNICODE)
 def normalize_repeated_characters(text: str) -> str:
     """
     Reduce very long repeated characters while keeping emphasis.
-    Example: "gooooood" -> "goood"
+    Example: gooooood -> goood
     """
     return REPEATED_CHAR_RE.sub(r"\1\1\1", text)
 
@@ -29,7 +29,8 @@ def normalize_repeated_characters(text: str) -> str:
 def clean_text(text: str, language: str = "") -> str:
     """
     Conservative cleaning for multilingual offensive-language data.
-    It removes platform noise while preserving useful offensive cues.
+    Removes platform noise while preserving offensive cues, hashtags,
+    transliteration patterns, and Urdu/Pashto script information.
     """
     if pd.isna(text):
         return ""
@@ -37,17 +38,18 @@ def clean_text(text: str, language: str = "") -> str:
     text = str(text)
     language = str(language).lower().strip()
 
+    # Remove URLs and user mentions.
     text = URL_RE.sub(" ", text)
     text = MENTION_RE.sub(" ", text)
 
-    # Keep hashtags as words because hashtags may carry target/topic information.
+    # Keep hashtag text because hashtags may carry offensive/topic information.
     text = text.replace("#", " #")
 
-    # Conservative repeated-character normalisation, especially useful for Roman Urdu/English.
-    if language in {"roman urdu", "english", "en", "ru"}:
+    # Normalize repeated characters mainly for Roman Urdu and English.
+    if language in {"roman urdu", "english"}:
         text = normalize_repeated_characters(text)
 
-    # Do not remove Arabic-script characters because Urdu/Pashto cues may be lost.
+    # Preserve Arabic-script characters for Urdu and Pashto.
     text = SPACE_RE.sub(" ", text).strip()
 
     return text
@@ -65,6 +67,9 @@ def main() -> None:
     input_path = Path(args.input)
     output_path = Path(args.output)
 
+    if not input_path.exists():
+        raise FileNotFoundError(f"Input file not found: {input_path}")
+
     df = pd.read_csv(input_path)
 
     if args.text_column not in df.columns:
@@ -78,11 +83,15 @@ def main() -> None:
         for text, lang in zip(df[args.text_column], df[args.language_column])
     ]
 
-    df = df[df[args.clean_column].astype(str).str.len() > 0].copy()
+    before_rows = len(df)
+    df = df[df[args.clean_column].astype(str).str.strip().str.len() > 0].copy()
+    removed_rows = before_rows - len(df)
+
     df.to_csv(output_path, index=False, encoding="utf-8")
 
     print(f"Saved cleaned file: {output_path}")
-    print(f"Rows: {len(df):,}")
+    print(f"Rows saved: {len(df):,}")
+    print(f"Empty rows removed: {removed_rows:,}")
 
 
 if __name__ == "__main__":
