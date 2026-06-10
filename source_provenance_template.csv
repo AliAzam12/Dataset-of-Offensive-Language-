@@ -1,5 +1,5 @@
 language,source_name,source_reference_or_url,original_labels,final_label_mapping,redistribution_status,notes
-Urdu,,,,,check original source terms,
-Roman Urdu,,,,,check original source terms,
-Pashto,,,,,check original source terms,
-English,,,,,check original source terms,
+Urdu,"Urdu offensive/threatening-language resources","Amjad et al. 2021","threatening, abusive, offensive, neutral","harmful labels -> offensive; neutral/clean labels -> non-offensive","check original source terms","Used for Urdu subset documentation and benchmark comparison"
+Roman Urdu,"Roman Urdu offensive/abusive/code-mixed resources","Rizwan et al. 2020; Dewani et al. 2021; Zain et al. 2025","hate, abusive, offensive, clean, neutral","harmful labels -> offensive; clean/neutral labels -> non-offensive","check original source terms","Largest Roman Urdu/code-mixed subset"
+Pashto,"Pashto offensive-language benchmark resources","Haq et al. 2023; Bokaei et al. 2026","offensive, non-offensive, toxic, neutral","offensive/toxic labels -> offensive; neutral/non-offensive labels -> non-offensive","check original source terms","Low-resource Pashto subset"
+English,"English offensive-language benchmark resources","Davidson et al. 2017","hate speech, offensive, neither/clean","hate/offensive labels -> offensive; neither/clean labels -> non-offensive","check original source terms","English reference subset"
