@@ -1,21 +1,19 @@
-﻿group,category,count
-total,all,144265
-language,Roman Urdu,73000
-language,Pashto,34400
-language,English,24783
-language,Urdu,12082
-label,offensive,85161
-label,non-offensive,59104
-split,train,100986
-split,validation,14426
-split,test,28853
-
-language,label,count
-Roman Urdu,offensive,43000
-Roman Urdu,non-offensive,30000
-Pashto,offensive,20200
-Pashto,non-offensive,14200
-English,offensive,14500
-English,non-offensive,10283
-Urdu,offensive,7461
-Urdu,non-offensive,4621
+group,category,count
+total,all,17559
+split,train,12306
+split,validation,1784
+split,test,3469
+language,Roman Urdu,9383
+language,Pashto,3393
+language,English,2751
+language,Urdu,2032
+label,offensive,11383
+label,non-offensive,6176
+language_label,English_non-offensive,1107
+language_label,English_offensive,1644
+language_label,Pashto_non-offensive,1426
+language_label,Pashto_offensive,1967
+language_label,Roman Urdu_non-offensive,2802
+language_label,Roman Urdu_offensive,6581
+language_label,Urdu_non-offensive,841
+language_label,Urdu_offensive,1191
