@@ -1,0 +1,40 @@
+{
+  "run_id": "dl_cnn-bilstm_loso_ru_private_fb_comments",
+  "model_name": "CNN-BiLSTM_LOSO_RU_Private_FB_Comments",
+  "accuracy": 1.0,
+  "macro_precision": 1.0,
+  "macro_recall": 1.0,
+  "macro_f1": 1.0,
+  "weighted_f1": 1.0,
+  "offensive_f1": 1.0,
+  "non_offensive_f1": 1.0,
+  "confusion_matrix": [
+    [
+      29,
+      0
+    ],
+    [
+      0,
+      195
+    ]
+  ],
+  "languages": {
+    "Roman Urdu": {
+      "samples": 224,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "offensive_f1": 1.0,
+      "non_offensive_f1": 1.0,
+      "confusion_matrix": [
+        [
+          29,
+          0
+        ],
+        [
+          0,
+          195
+        ]
+      ]
+    }
+  }
+}

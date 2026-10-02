@@ -1,0 +1,2 @@
+run_id,model_name,accuracy,macro_precision,macro_recall,macro_f1,weighted_f1,offensive_f1,non_offensive_f1,English_samples,English_accuracy,English_macro_f1,Pashto_samples,Pashto_accuracy,Pashto_macro_f1,Roman Urdu_samples,Roman Urdu_accuracy,Roman Urdu_macro_f1,Urdu_samples,Urdu_accuracy,Urdu_macro_f1
+dl_cnn-bilstm_seed123,CNN-BiLSTM_seed123,0.9969,0.9979,0.9939,0.9959,0.9969,0.9979,0.9939,64,1.0,1.0,43,0.9767,0.9763,164,1.0,1.0,49,1.0,1.0

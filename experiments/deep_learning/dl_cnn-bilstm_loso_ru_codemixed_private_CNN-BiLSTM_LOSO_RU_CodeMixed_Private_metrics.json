@@ -1,0 +1,40 @@
+{
+  "run_id": "dl_cnn-bilstm_loso_ru_codemixed_private",
+  "model_name": "CNN-BiLSTM_LOSO_RU_CodeMixed_Private",
+  "accuracy": 0.9913,
+  "macro_precision": 0.995,
+  "macro_recall": 0.9692,
+  "macro_f1": 0.9816,
+  "weighted_f1": 0.9912,
+  "offensive_f1": 0.995,
+  "non_offensive_f1": 0.9683,
+  "confusion_matrix": [
+    [
+      61,
+      4
+    ],
+    [
+      0,
+      396
+    ]
+  ],
+  "languages": {
+    "Roman Urdu": {
+      "samples": 461,
+      "accuracy": 0.9913,
+      "macro_f1": 0.9816,
+      "offensive_f1": 0.995,
+      "non_offensive_f1": 0.9683,
+      "confusion_matrix": [
+        [
+          61,
+          4
+        ],
+        [
+          0,
+          396
+        ]
+      ]
+    }
+  }
+}

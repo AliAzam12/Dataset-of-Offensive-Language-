@@ -1,0 +1,40 @@
+{
+  "run_id": "dl_cnn-bilstm_loso_ur_private_tweets",
+  "model_name": "CNN-BiLSTM_LOSO_UR_Private_Tweets",
+  "accuracy": 1.0,
+  "macro_precision": 1.0,
+  "macro_recall": 1.0,
+  "macro_f1": 1.0,
+  "weighted_f1": 1.0,
+  "offensive_f1": 1.0,
+  "non_offensive_f1": 1.0,
+  "confusion_matrix": [
+    [
+      27,
+      0
+    ],
+    [
+      0,
+      43
+    ]
+  ],
+  "languages": {
+    "Urdu": {
+      "samples": 70,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "offensive_f1": 1.0,
+      "non_offensive_f1": 1.0,
+      "confusion_matrix": [
+        [
+          27,
+          0
+        ],
+        [
+          0,
+          43
+        ]
+      ]
+    }
+  }
+}

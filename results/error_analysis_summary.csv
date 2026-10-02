@@ -1,0 +1,29 @@
+breakdown_type,category,error_count
+model_x_error_type,Attention-BiLSTM_False Negative (FN),2
+model_x_error_type,Attention-BiLSTM_False Positive (FP),2
+model_x_error_type,CNN_False Positive (FP),2
+model_x_error_type,CNN-BiLSTM_False Positive (FP),1
+model_x_error_type,Linear_SVM_False Positive (FP),2
+model_x_language,Attention-BiLSTM_Pashto,4
+model_x_language,CNN_Pashto,2
+model_x_language,CNN-BiLSTM_Pashto,1
+model_x_language,Linear_SVM_Pashto,2
+model_x_source,Attention-BiLSTM_PS_LowResource_Private,2
+model_x_source,Attention-BiLSTM_PS_Private_Social_Comments,2
+model_x_source,CNN_PS_LowResource_Private,1
+model_x_source,CNN_PS_Private_Social_Comments,1
+model_x_source,CNN-BiLSTM_PS_Private_Social_Comments,1
+model_x_source,Linear_SVM_PS_LowResource_Private,1
+model_x_source,Linear_SVM_PS_Private_Social_Comments,1
+model_x_length_bin,Attention-BiLSTM_short (<=50),4
+model_x_length_bin,Attention-BiLSTM_medium (51-150),0
+model_x_length_bin,Attention-BiLSTM_long (>150),0
+model_x_length_bin,CNN_short (<=50),2
+model_x_length_bin,CNN_medium (51-150),0
+model_x_length_bin,CNN_long (>150),0
+model_x_length_bin,CNN-BiLSTM_short (<=50),1
+model_x_length_bin,CNN-BiLSTM_medium (51-150),0
+model_x_length_bin,CNN-BiLSTM_long (>150),0
+model_x_length_bin,Linear_SVM_short (<=50),2
+model_x_length_bin,Linear_SVM_medium (51-150),0
+model_x_length_bin,Linear_SVM_long (>150),0

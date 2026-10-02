@@ -1,0 +1,9 @@
+comparison,description,model_a,model_b,f1_a,f1_b,delta_macro_f1 (A - B),delta_95_ci_lower,delta_95_ci_upper,delta_95_ci,paired_bootstrap_p,mcnemar_stat,mcnemar_p_value,"discordant_b (A correct, B wrong)","discordant_c (A wrong, B correct)",statistically_significant (alpha=0.05)
+CNN-BiLSTM vs Linear_SVM,Best Deep Learning vs Best Classical,CNN-BiLSTM,Linear_SVM,0.9959,0.9917,0.0041,0.0,0.0134,"[+0.0000, +0.0134]",0.1731,1.0,1.0,1,0,False
+CNN-BiLSTM vs Multinomial_Naive_Bayes,Best Deep Learning vs Naive Bayes,CNN-BiLSTM,Multinomial_Naive_Bayes,0.9959,1.0,-0.0041,-0.0132,0.0,"[-0.0132, +0.0000]",0.5339,0.0,1.0,0,1,False
+Linear_SVM vs Logistic_Regression,Linear SVM vs Logistic Regression,Linear_SVM,Logistic_Regression,0.9917,0.9917,0.0,0.0,0.0,"[+0.0000, +0.0000]",1.0,0.0,1.0,0,0,False
+CNN-BiLSTM vs Attention-BiLSTM,CNN-BiLSTM vs Attention-BiLSTM,CNN-BiLSTM,Attention-BiLSTM,0.9959,0.9836,0.0123,0.0,0.0282,"[+0.0000, +0.0282]",0.1064,3.0,0.25,3,0,False
+CNN-BiLSTM vs CNN,CNN-BiLSTM vs TextCNN,CNN-BiLSTM,CNN,0.9959,0.9917,0.0041,0.0,0.0134,"[+0.0000, +0.0134]",0.1731,1.0,1.0,1,0,False
+CNN-BiLSTM vs BiLSTM,CNN-BiLSTM vs TextBiLSTM,CNN-BiLSTM,BiLSTM,0.9959,0.9917,0.0041,0.0,0.0134,"[+0.0000, +0.0134]",0.1731,1.0,1.0,1,0,False
+Random_Forest vs Linear_SVM,Random Forest vs Linear SVM,Random_Forest,Linear_SVM,1.0,0.9917,0.0083,0.0,0.0211,"[+0.0000, +0.0211]",0.0918,2.0,0.5,2,0,False
+Random_Forest vs CNN-BiLSTM,Random Forest vs CNN-BiLSTM,Random_Forest,CNN-BiLSTM,1.0,0.9959,0.0041,0.0,0.0132,"[+0.0000, +0.0132]",0.5339,1.0,1.0,1,0,False

@@ -1,0 +1,91 @@
+{
+  "run_id": "dl_attention-bilstm",
+  "model_name": "Attention-BiLSTM",
+  "accuracy": 0.9875,
+  "macro_precision": 0.9836,
+  "macro_recall": 0.9836,
+  "macro_f1": 0.9836,
+  "weighted_f1": 0.9875,
+  "offensive_f1": 0.9916,
+  "non_offensive_f1": 0.9756,
+  "confusion_matrix": [
+    [
+      80,
+      2
+    ],
+    [
+      2,
+      236
+    ]
+  ],
+  "languages": {
+    "English": {
+      "samples": 64,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "offensive_f1": 1.0,
+      "non_offensive_f1": 1.0,
+      "confusion_matrix": [
+        [
+          19,
+          0
+        ],
+        [
+          0,
+          45
+        ]
+      ]
+    },
+    "Pashto": {
+      "samples": 43,
+      "accuracy": 0.907,
+      "macro_f1": 0.9057,
+      "offensive_f1": 0.9167,
+      "non_offensive_f1": 0.8947,
+      "confusion_matrix": [
+        [
+          17,
+          2
+        ],
+        [
+          2,
+          22
+        ]
+      ]
+    },
+    "Roman Urdu": {
+      "samples": 164,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "offensive_f1": 1.0,
+      "non_offensive_f1": 1.0,
+      "confusion_matrix": [
+        [
+          23,
+          0
+        ],
+        [
+          0,
+          141
+        ]
+      ]
+    },
+    "Urdu": {
+      "samples": 49,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "offensive_f1": 1.0,
+      "non_offensive_f1": 1.0,
+      "confusion_matrix": [
+        [
+          21,
+          0
+        ],
+        [
+          0,
+          28
+        ]
+      ]
+    }
+  }
+}

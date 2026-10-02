@@ -1,0 +1,2 @@
+run_id,model_name,accuracy,macro_precision,macro_recall,macro_f1,weighted_f1,offensive_f1,non_offensive_f1,Urdu_samples,Urdu_accuracy,Urdu_macro_f1
+dl_cnn-bilstm_loso_ur_private_tweets,CNN-BiLSTM_LOSO_UR_Private_Tweets,1.0,1.0,1.0,1.0,1.0,1.0,1.0,70,1.0,1.0

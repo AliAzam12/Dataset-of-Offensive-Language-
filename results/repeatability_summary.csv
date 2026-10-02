@@ -1,0 +1,4 @@
+model,family,n_runs,seeds,mean_macro_f1,std_macro_f1,rsd_percent,min_macro_f1,max_macro_f1,ci_95_lower,ci_95_upper,ci_95_formatted
+CNN-BiLSTM,Deep Learning,5,"[42, 123, 456, 789, 2026]",0.9959,0.0,0.0,0.9959,0.9959,0.9959,0.9959,"[0.9959, 0.9959]"
+Linear_SVM,Traditional ML,5,"[42, 123, 456, 789, 2026]",0.9917,0.0,0.0,0.9917,0.9917,0.9917,0.9917,"[0.9917, 0.9917]"
+Multinomial_Naive_Bayes,Traditional ML,5,"[42, 123, 456, 789, 2026]",1.0,0.0,0.0,1.0,1.0,1.0,1.0,"[1.0000, 1.0000]"

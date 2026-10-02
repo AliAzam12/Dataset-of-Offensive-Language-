@@ -1,0 +1,40 @@
+{
+  "run_id": "dl_cnn-bilstm_loso_ps_private_social_comments",
+  "model_name": "CNN-BiLSTM_LOSO_PS_Private_Social_Comments",
+  "accuracy": 0.9452,
+  "macro_precision": 0.9556,
+  "macro_recall": 0.9375,
+  "macro_f1": 0.9434,
+  "weighted_f1": 0.9447,
+  "offensive_f1": 0.9535,
+  "non_offensive_f1": 0.9333,
+  "confusion_matrix": [
+    [
+      28,
+      4
+    ],
+    [
+      0,
+      41
+    ]
+  ],
+  "languages": {
+    "Pashto": {
+      "samples": 73,
+      "accuracy": 0.9452,
+      "macro_f1": 0.9434,
+      "offensive_f1": 0.9535,
+      "non_offensive_f1": 0.9333,
+      "confusion_matrix": [
+        [
+          28,
+          4
+        ],
+        [
+          0,
+          41
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,321 @@
+id,text,clean_text,language,source_dataset,true_label,true_label_id,predicted_label_id,predicted_label
+MOLB_000002,"tumhari baat bilkul weak hai, please ye technology drama band karo","tumhari baat bilkul weak hai, please ye technology drama band karo",Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_000003,دا ځواب ډېر بد او غير ضروري دی,دا ځواب ډېر بد او غير ضروري دی,Pashto,PS_Private_Social_Comments,offensive,1,1,offensive
+MOLB_000101,stop posting this nonsense again and again,stop posting this nonsense again and again,English,EN_Social_Media_Mix,offensive,1,1,offensive
+MOLB_000017,"pagalpan ki bhi limit hoti hai, ye kya likh diya seriously","pagalpan ki bhi limit hoti hai, ye kya likh diya seriously",Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_000028,"tum log bas fazool behas karte ho, koi kaam ki baat nahi","tum log bas fazool behas karte ho, koi kaam ki baat nahi",Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_000030,ټول بايد په حوصله خبرې وکړي,ټول بايد په حوصله خبرې وکړي,Pashto,PS_LowResource_Private,non-offensive,0,0,non-offensive
+MOLB_000034,نن د community موضوع مهمه ده,نن د community موضوع مهمه ده,Pashto,PS_LowResource_Private,non-offensive,0,0,non-offensive
+MOLB_000036,"tumhari baat bilkul badtameez hai, please ye politics drama band karo","tumhari baat bilkul badtameez hai, please ye politics drama band karo",Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_000042,bhai itni weak soch kahan se laate ho? seriously,bhai itni weak soch kahan se laate ho? seriously,Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_000045,یہ جواب بہت برا اور غیر ضروری ہے,یہ جواب بہت برا اور غیر ضروری ہے,Urdu,UR_ArabicScript_Private,offensive,1,1,offensive
+MOLB_000047,I appreciate the balanced response in this thread,I appreciate the balanced response in this thread,English,EN_Offensive_Benchmark_Private,non-offensive,0,0,non-offensive
+MOLB_001817,this comment is really hostile and adds nothing to the technology discussion,this comment is really hostile and adds nothing to the technology discussion,English,EN_Social_Media_Mix,offensive,1,1,offensive
+MOLB_000062,دا پوسټ يوازې بې ځایه بحث جوړوي,دا پوسټ يوازې بې ځایه بحث جوړوي,Pashto,PS_Public_Forum_Mix,offensive,1,1,offensive
+MOLB_000063,mujhe lagta hai is issue par aur details chahiye good point,mujhe lagta hai is issue par aur details chahiye good point,Roman Urdu,RU_CodeMixed_Private,non-offensive,0,0,non-offensive
+MOLB_000065,"good point, the context is important here","good point, the context is important here",English,EN_Offensive_Benchmark_Private,non-offensive,0,0,non-offensive
+MOLB_000072,ستاسو خبره نامناسبه او بې ادبه ښکاري update,ستاسو خبره نامناسبه او بې ادبه ښکاري update,Pashto,PS_Private_Social_Comments,offensive,1,1,offensive
+MOLB_000812,"aapka comment reasonable hai, main agree karta hun good point","aapka comment reasonable hai, main agree karta hun good point",Roman Urdu,RU_Social_Media_Mix,non-offensive,0,0,non-offensive
+MOLB_000083,"yeh opinion bilkul bekaar hai, samajh kar likho please keep it respectful","yeh opinion bilkul bekaar hai, samajh kar likho please keep it respectful",Roman Urdu,RU_Social_Media_Mix,offensive,1,1,offensive
+MOLB_000092,سب کو تحمل سے بات کرنی چاہیے,سب کو تحمل سے بات کرنی چاہیے,Urdu,UR_Private_Tweets,non-offensive,0,0,non-offensive
+MOLB_000107,"stop this bakwas, politics par proper baat karo good point","stop this bakwas, politics par proper baat karo good point",Roman Urdu,RU_Private_FB_Comments,offensive,1,1,offensive
+MOLB_000108,aaj ka education discussion bohat acha tha,aaj ka education discussion bohat acha tha,Roman Urdu,RU_CodeMixed_Private,non-offensive,0,0,non-offensive
+MOLB_000113,the way you wrote this is disrespectful and childish please,the way you wrote this is disrespectful and childish please,English,EN_Offensive_Benchmark_Private,offensive,1,1,offensive
+MOLB_000131,ye post useless hai aur sirf lafda create kar raha hai calm down,ye post useless hai aur sirf lafda create kar raha hai calm down,Roman Urdu,RU_Social_Media_Mix,offensive,1,1,offensive
+MOLB_000133,ye post useless hai aur sirf lafda create kar raha hai no need for this,ye post useless hai aur sirf lafda create kar raha hai no need for this,Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_000217,"aapka comment reasonable hai, main agree karta hun please keep it respectful","aapka comment reasonable hai, main agree karta hun please keep it respectful",Roman Urdu,RU_Social_Media_Mix,non-offensive,0,0,non-offensive
+MOLB_000137,بحث مه خرابوئ، ارامه خبره وکړئ,بحث مه خرابوئ، ارامه خبره وکړئ,Pashto,PS_LowResource_Private,offensive,1,1,offensive
+MOLB_000145,"stop this bakwas, entertainment par proper baat karo","stop this bakwas, entertainment par proper baat karo",Roman Urdu,RU_Social_Media_Mix,offensive,1,1,offensive
+MOLB_000160,ye comment bohat weak aur immature lag raha hai,ye comment bohat weak aur immature lag raha hai,Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_000243,"stop this bakwas, education par proper baat karo","stop this bakwas, education par proper baat karo",Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_000165,ye post useless hai aur sirf lafda create kar raha hai good point,ye post useless hai aur sirf lafda create kar raha hai good point,Roman Urdu,RU_Social_Media_Mix,offensive,1,1,offensive
+MOLB_000284,is topic par respectful discussion honi chahiye no need for this,is topic par respectful discussion honi chahiye no need for this,Roman Urdu,RU_CodeMixed_Private,non-offensive,0,0,non-offensive
+MOLB_000175,aaj ka community discussion bohat acha tha seriously,aaj ka community discussion bohat acha tha seriously,Roman Urdu,RU_CodeMixed_Private,non-offensive,0,0,non-offensive
+MOLB_000190,"this is a useless take, please think before posting yaar","this is a useless take, please think before posting yaar",English,EN_Offensive_Benchmark_Private,offensive,1,1,offensive
+MOLB_000207,مهرباني وکړئ د politics په اړه په احترام خبرې وکړئ respect,مهرباني وکړئ د politics په اړه په احترام خبرې وکړئ respect,Pashto,PS_LowResource_Private,offensive,1,1,offensive
+MOLB_000215,aaj ka news discussion bohat acha tha,aaj ka news discussion bohat acha tha,Roman Urdu,RU_Social_Media_Mix,non-offensive,0,0,non-offensive
+MOLB_002003,"stop this bakwas, community par proper baat karo calm down","stop this bakwas, community par proper baat karo calm down",Roman Urdu,RU_Private_FB_Comments,offensive,1,1,offensive
+MOLB_000236,"stop this bakwas, cricket par proper baat karo no need for this","stop this bakwas, cricket par proper baat karo no need for this",Roman Urdu,RU_Social_Media_Mix,offensive,1,1,offensive
+MOLB_000279,the post is informative and clearly written please,the post is informative and clearly written please,English,EN_Offensive_Benchmark_Private,non-offensive,0,0,non-offensive
+MOLB_000248,آپ کی بات غیر مناسب اور بدتمیز محسوس ہو رہی ہے,آپ کی بات غیر مناسب اور بدتمیز محسوس ہو رہی ہے,Urdu,UR_ArabicScript_Private,offensive,1,1,offensive
+MOLB_000256,ye comment bohat fazool aur useless lag raha hai seriously,ye comment bohat fazool aur useless lag raha hai seriously,Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_001369,یہ تبصرہ بہت غلط ہے، براہ کرم ایسا لہجہ نہ اپنائیں,یہ تبصرہ بہت غلط ہے، براہ کرم ایسا لہجہ نہ اپنائیں,Urdu,UR_ArabicScript_Private,offensive,1,1,offensive
+MOLB_000270,itna rude reply dena zaroori tha kya? please keep it respectful,itna rude reply dena zaroori tha kya? please keep it respectful,Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_000562,bhai itni fazool soch kahan se laate ho?,bhai itni fazool soch kahan se laate ho?,Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_000422,aisa technology wala post dekh kar sirf gussa aata hai no need for this,aisa technology wala post dekh kar sirf gussa aata hai no need for this,Roman Urdu,RU_Private_FB_Comments,offensive,1,1,offensive
+MOLB_000285,آپ کا نقطہ نظر سمجھ آگیا,آپ کا نقطہ نظر سمجھ آگیا,Urdu,UR_ArabicScript_Private,non-offensive,0,0,non-offensive
+MOLB_000294,bhai itni ghalat soch kahan se laate ho? good point,bhai itni ghalat soch kahan se laate ho? good point,Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_000296,aisa cricket wala post dekh kar sirf gussa aata hai,aisa cricket wala post dekh kar sirf gussa aata hai,Roman Urdu,RU_Social_Media_Mix,offensive,1,1,offensive
+MOLB_000300,داسې توندې خبرې د بحث فضا خرابوي respect,داسې توندې خبرې د بحث فضا خرابوي respect,Pashto,PS_LowResource_Private,offensive,1,1,offensive
+MOLB_000512,"mujhe aapka point samajh aa gaya, thanks calm down","mujhe aapka point samajh aa gaya, thanks calm down",Roman Urdu,RU_CodeMixed_Private,non-offensive,0,0,non-offensive
+MOLB_001574,"stop this bakwas, education par proper baat karo good point","stop this bakwas, education par proper baat karo good point",Roman Urdu,RU_Private_FB_Comments,offensive,1,1,offensive
+MOLB_000317,bhai itni badtameez soch kahan se laate ho? please keep it respectful,bhai itni badtameez soch kahan se laate ho? please keep it respectful,Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_000358,"stop this bakwas, sports par proper baat karo","stop this bakwas, sports par proper baat karo",Roman Urdu,RU_Social_Media_Mix,offensive,1,1,offensive
+MOLB_000374,aaj ka entertainment discussion bohat acha tha calm down,aaj ka entertainment discussion bohat acha tha calm down,Roman Urdu,RU_Social_Media_Mix,non-offensive,0,0,non-offensive
+MOLB_000377,aisa news wala post dekh kar sirf gussa aata hai,aisa news wala post dekh kar sirf gussa aata hai,Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_000392,aisa entertainment wala post dekh kar sirf gussa aata hai calm down,aisa entertainment wala post dekh kar sirf gussa aata hai calm down,Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_000393,ye comment bohat badtameez aur immature lag raha hai seriously,ye comment bohat badtameez aur immature lag raha hai seriously,Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_001689,نن د technology موضوع مهمه ده,نن د technology موضوع مهمه ده,Pashto,PS_Private_Social_Comments,non-offensive,0,0,non-offensive
+MOLB_000930,thanks for sharing this information with everyone yaar,thanks for sharing this information with everyone yaar,English,EN_Public_Comments,non-offensive,0,0,non-offensive
+MOLB_000412,مجھے لگتا ہے اس پر مزید تفصیل ہونی چاہیے please,مجھے لگتا ہے اس پر مزید تفصیل ہونی چاہیے please,Urdu,UR_ArabicScript_Private,non-offensive,0,0,non-offensive
+MOLB_000413,aaj ka education discussion bohat acha tha seriously,aaj ka education discussion bohat acha tha seriously,Roman Urdu,RU_CodeMixed_Private,non-offensive,0,0,non-offensive
+MOLB_000802,مهرباني وکړئ د politics په اړه په احترام خبرې وکړئ,مهرباني وکړئ د politics په اړه په احترام خبرې وکړئ,Pashto,PS_Private_Social_Comments,offensive,1,1,offensive
+MOLB_000765,aisa politics wala post dekh kar sirf gussa aata hai,aisa politics wala post dekh kar sirf gussa aata hai,Roman Urdu,RU_Private_FB_Comments,offensive,1,1,offensive
+MOLB_000556,aisa weather wala post dekh kar sirf gussa aata hai,aisa weather wala post dekh kar sirf gussa aata hai,Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_000447,"tum log bas fazool behas karte ho, koi kaam ki baat nahi calm down","tum log bas fazool behas karte ho, koi kaam ki baat nahi calm down",Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_000458,this explanation makes the issue easier to understand yaar,this explanation makes the issue easier to understand yaar,English,EN_Offensive_Benchmark_Private,non-offensive,0,0,non-offensive
+MOLB_000470,aisa technology wala post dekh kar sirf gussa aata hai,aisa technology wala post dekh kar sirf gussa aata hai,Roman Urdu,RU_Private_FB_Comments,offensive,1,1,offensive
+MOLB_001203,مهرباني وکړئ بحث په احترام سره وکړئ comment,مهرباني وکړئ بحث په احترام سره وکړئ comment,Pashto,PS_Private_Social_Comments,non-offensive,0,0,non-offensive
+MOLB_000497,nobody needs this kind of rude behaviour here samjho,nobody needs this kind of rude behaviour here samjho,English,EN_Public_Comments,offensive,1,1,offensive
+MOLB_000506,aaj ka local issue discussion bohat acha tha good point,aaj ka local issue discussion bohat acha tha good point,Roman Urdu,RU_CodeMixed_Private,non-offensive,0,0,non-offensive
+MOLB_000509,this comment is really hostile and adds nothing to the entertainment discussion,this comment is really hostile and adds nothing to the entertainment discussion,English,EN_Public_Comments,offensive,1,1,offensive
+MOLB_000514,ye post useless hai aur sirf lafda create kar raha hai please keep it respectful,ye post useless hai aur sirf lafda create kar raha hai please keep it respectful,Roman Urdu,RU_Private_FB_Comments,offensive,1,1,offensive
+MOLB_000516,itna rude reply dena zaroori tha kya? no need for this,itna rude reply dena zaroori tha kya? no need for this,Roman Urdu,RU_Private_FB_Comments,offensive,1,1,offensive
+MOLB_000528,"stop this bakwas, entertainment par proper baat karo seriously","stop this bakwas, entertainment par proper baat karo seriously",Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_000530,this was useful for understanding the situation yaar,this was useful for understanding the situation yaar,English,EN_Public_Comments,non-offensive,0,0,non-offensive
+MOLB_000531,ستاسو لهجه ډېره سخته ښکاري comment,ستاسو لهجه ډېره سخته ښکاري comment,Pashto,PS_Public_Forum_Mix,offensive,1,1,offensive
+MOLB_000697,ye comment bohat rude aur weak lag raha hai calm down,ye comment bohat rude aur weak lag raha hai calm down,Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_000550,is topic par respectful discussion honi chahiye good point,is topic par respectful discussion honi chahiye good point,Roman Urdu,RU_Private_FB_Comments,non-offensive,0,0,non-offensive
+MOLB_000585,ye comment bohat rude aur weak lag raha hai seriously,ye comment bohat rude aur weak lag raha hai seriously,Roman Urdu,RU_Private_FB_Comments,offensive,1,1,offensive
+MOLB_000604,ye comment bohat fazool aur useless lag raha hai calm down,ye comment bohat fazool aur useless lag raha hai calm down,Roman Urdu,RU_Private_FB_Comments,offensive,1,1,offensive
+MOLB_000631,aisa cricket wala post dekh kar sirf gussa aata hai no need for this,aisa cricket wala post dekh kar sirf gussa aata hai no need for this,Roman Urdu,RU_Private_FB_Comments,offensive,1,1,offensive
+MOLB_000637,such a bad comment only ruins the discussion samjho,such a bad comment only ruins the discussion samjho,English,EN_Offensive_Benchmark_Private,offensive,1,1,offensive
+MOLB_000642,aisa local issue wala post dekh kar sirf gussa aata hai please keep it respectful,aisa local issue wala post dekh kar sirf gussa aata hai please keep it respectful,Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_001474,ye comment bohat rude aur rude lag raha hai,ye comment bohat rude aur rude lag raha hai,Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_000667,this comment is really rude and adds nothing to the politics discussion,this comment is really rude and adds nothing to the politics discussion,English,EN_Social_Media_Mix,offensive,1,1,offensive
+MOLB_000675,یہ اپ ڈیٹ وقت پر ملی، شکریہ discussion,یہ اپ ڈیٹ وقت پر ملی، شکریہ discussion,Urdu,UR_ArabicScript_Private,non-offensive,0,0,non-offensive
+MOLB_000680,"stop this bakwas, education par proper baat karo calm down","stop this bakwas, education par proper baat karo calm down",Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_000686,نن د entertainment موضوع مهمه ده,نن د entertainment موضوع مهمه ده,Pashto,PS_LowResource_Private,non-offensive,0,0,non-offensive
+MOLB_000702,"tumhari baat bilkul ghalat hai, please ye local issue drama band karo seriously","tumhari baat bilkul ghalat hai, please ye local issue drama band karo seriously",Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_000731,"this is a useless take, please think before posting please","this is a useless take, please think before posting please",English,EN_Social_Media_Mix,offensive,1,1,offensive
+MOLB_000772,مهرباني وکړئ د entertainment په اړه په احترام خبرې وکړئ comment,مهرباني وکړئ د entertainment په اړه په احترام خبرې وکړئ comment,Pashto,PS_LowResource_Private,offensive,1,1,offensive
+MOLB_007656,"tumhari baat bilkul fazool hai, please ye sports drama band karo no need for this","tumhari baat bilkul fazool hai, please ye sports drama band karo no need for this",Roman Urdu,RU_Private_FB_Comments,offensive,1,1,offensive
+MOLB_000814,نن د sports موضوع مهمه ده,نن د sports موضوع مهمه ده,Pashto,PS_Private_Social_Comments,non-offensive,0,0,non-offensive
+MOLB_000823,"tumhari baat bilkul ghalat hai, please ye education drama band karo","tumhari baat bilkul ghalat hai, please ye education drama band karo",Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_000845,aisa politics wala post dekh kar sirf gussa aata hai please keep it respectful,aisa politics wala post dekh kar sirf gussa aata hai please keep it respectful,Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_004344,aisa local issue wala post dekh kar sirf gussa aata hai good point,aisa local issue wala post dekh kar sirf gussa aata hai good point,Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_000861,دا وضاحت ډېر مرسته کوونکی دی update,دا وضاحت ډېر مرسته کوونکی دی update,Pashto,PS_LowResource_Private,non-offensive,0,0,non-offensive
+MOLB_000867,stop posting this nonsense again and again please,stop posting this nonsense again and again please,English,EN_Offensive_Benchmark_Private,offensive,1,1,offensive
+MOLB_000871,ټول بايد په حوصله خبرې وکړي comment,ټول بايد په حوصله خبرې وکړي comment,Pashto,PS_Private_Social_Comments,non-offensive,0,0,non-offensive
+MOLB_001564,aisa community wala post dekh kar sirf gussa aata hai calm down,aisa community wala post dekh kar sirf gussa aata hai calm down,Roman Urdu,RU_Social_Media_Mix,offensive,1,1,offensive
+MOLB_000877,bhai itni bekaar soch kahan se laate ho? no need for this,bhai itni bekaar soch kahan se laate ho? no need for this,Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_001228,this comment is really unhelpful and adds nothing to the entertainment discussion,this comment is really unhelpful and adds nothing to the entertainment discussion,English,EN_Offensive_Benchmark_Private,offensive,1,1,offensive
+MOLB_002982,آج کا news موضوع اہم ہے,آج کا news موضوع اہم ہے,Urdu,UR_Private_Tweets,non-offensive,0,0,non-offensive
+MOLB_004588,"good point, the context is important here yaar","good point, the context is important here yaar",English,EN_Offensive_Benchmark_Private,non-offensive,0,0,non-offensive
+MOLB_002381,مننه، تازه معلومات پر وخت راغلل update,مننه، تازه معلومات پر وخت راغلل update,Pashto,PS_LowResource_Private,non-offensive,0,0,non-offensive
+MOLB_003176,"tumhari baat bilkul fazool hai, please ye politics drama band karo","tumhari baat bilkul fazool hai, please ye politics drama band karo",Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_000981,"tumhari baat bilkul fazool hai, please ye cricket drama band karo","tumhari baat bilkul fazool hai, please ye cricket drama band karo",Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_000984,نن د weather موضوع مهمه ده,نن د weather موضوع مهمه ده,Pashto,PS_LowResource_Private,non-offensive,0,0,non-offensive
+MOLB_000993,"tumhari baat bilkul badtameez hai, please ye community drama band karo","tumhari baat bilkul badtameez hai, please ye community drama band karo",Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_000999,"tumhari baat bilkul weak hai, please ye sports drama band karo","tumhari baat bilkul weak hai, please ye sports drama band karo",Roman Urdu,RU_Social_Media_Mix,offensive,1,1,offensive
+MOLB_001004,such a bad comment only ruins the discussion please,such a bad comment only ruins the discussion please,English,EN_Social_Media_Mix,offensive,1,1,offensive
+MOLB_002820,براہ کرم news پر سنجیدہ بات کریں، طنز نہ کریں,براہ کرم news پر سنجیدہ بات کریں، طنز نہ کریں,Urdu,UR_ArabicScript_Private,offensive,1,1,offensive
+MOLB_001676,دا تبصره ډېره سخته ده، مهرباني وکړئ داسې لهجه مه کاروئ update,دا تبصره ډېره سخته ده، مهرباني وکړئ داسې لهجه مه کاروئ update,Pashto,PS_Public_Forum_Mix,offensive,1,1,offensive
+MOLB_001029,aisa cricket wala post dekh kar sirf gussa aata hai please keep it respectful,aisa cricket wala post dekh kar sirf gussa aata hai please keep it respectful,Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_001050,"stop this bakwas, politics par proper baat karo no need for this","stop this bakwas, politics par proper baat karo no need for this",Roman Urdu,RU_Private_FB_Comments,offensive,1,1,offensive
+MOLB_001080,bhai itni ghalat soch kahan se laate ho? seriously,bhai itni ghalat soch kahan se laate ho? seriously,Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_001091,"tumhari baat bilkul bekaar hai, please ye politics drama band karo seriously","tumhari baat bilkul bekaar hai, please ye politics drama band karo seriously",Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_001121,آپ کا لہجہ بہت سخت اور نامناسب ہے discussion,آپ کا لہجہ بہت سخت اور نامناسب ہے discussion,Urdu,UR_ArabicScript_Private,offensive,1,1,offensive
+MOLB_001100,دا تبصره ډېره بې ځایه ده، مهرباني وکړئ داسې لهجه مه کاروئ update,دا تبصره ډېره بې ځایه ده، مهرباني وکړئ داسې لهجه مه کاروئ update,Pashto,PS_Private_Social_Comments,offensive,1,1,offensive
+MOLB_002452,ye comment bohat bekaar aur immature lag raha hai,ye comment bohat bekaar aur immature lag raha hai,Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_001325,bhai itni weak soch kahan se laate ho? no need for this,bhai itni weak soch kahan se laate ho? no need for this,Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_001149,"stop this bakwas, sports par proper baat karo good point","stop this bakwas, sports par proper baat karo good point",Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_001164,دا معلومات ډېر ګټور دي، مننه please,دا معلومات ډېر ګټور دي، مننه please,Pashto,PS_LowResource_Private,non-offensive,0,0,non-offensive
+MOLB_001168,"tumhari baat bilkul bekaar hai, please ye sports drama band karo","tumhari baat bilkul bekaar hai, please ye sports drama band karo",Roman Urdu,RU_Private_FB_Comments,offensive,1,1,offensive
+MOLB_001174,"tumhari baat bilkul bekaar hai, please ye community drama band karo","tumhari baat bilkul bekaar hai, please ye community drama band karo",Roman Urdu,RU_Private_FB_Comments,offensive,1,1,offensive
+MOLB_001194,ایسی سخت زبان استعمال کرنا درست نہیں please,ایسی سخت زبان استعمال کرنا درست نہیں please,Urdu,UR_Social_Media_Mix,offensive,1,1,offensive
+MOLB_001513,دا پوسټ يوازې بې ځایه بحث جوړوي please,دا پوسټ يوازې بې ځایه بحث جوړوي please,Pashto,PS_Public_Forum_Mix,offensive,1,1,offensive
+MOLB_001212,"tumhari baat bilkul ghalat hai, please ye cricket drama band karo please keep it respectful","tumhari baat bilkul ghalat hai, please ye cricket drama band karo please keep it respectful",Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_001213,ستاسو خبره نامناسبه او بې ادبه ښکاري respect,ستاسو خبره نامناسبه او بې ادبه ښکاري respect,Pashto,PS_LowResource_Private,offensive,1,1,offensive
+MOLB_001215,ye comment bohat bekaar aur immature lag raha hai calm down,ye comment bohat bekaar aur immature lag raha hai calm down,Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_001219,bhai itni bekaar soch kahan se laate ho? good point,bhai itni bekaar soch kahan se laate ho? good point,Roman Urdu,RU_Social_Media_Mix,offensive,1,1,offensive
+MOLB_001227,نن د technology موضوع مهمه ده update,نن د technology موضوع مهمه ده update,Pashto,PS_Public_Forum_Mix,non-offensive,0,0,non-offensive
+MOLB_001239,"stop this bakwas, weather par proper baat karo please keep it respectful","stop this bakwas, weather par proper baat karo please keep it respectful",Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_001968,"tumhari baat bilkul badtameez hai, please ye politics drama band karo no need for this","tumhari baat bilkul badtameez hai, please ye politics drama band karo no need for this",Roman Urdu,RU_Private_FB_Comments,offensive,1,1,offensive
+MOLB_001269,aisa weather wala post dekh kar sirf gussa aata hai good point,aisa weather wala post dekh kar sirf gussa aata hai good point,Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_001294,یہ تبصرہ بہت غلط ہے، براہ کرم ایسا لہجہ نہ اپنائیں please,یہ تبصرہ بہت غلط ہے، براہ کرم ایسا لہجہ نہ اپنائیں please,Urdu,UR_Social_Media_Mix,offensive,1,1,offensive
+MOLB_001310,this explanation makes the issue easier to understand bhai,this explanation makes the issue easier to understand bhai,English,EN_Offensive_Benchmark_Private,non-offensive,0,0,non-offensive
+MOLB_001335,"stop this bakwas, technology par proper baat karo no need for this","stop this bakwas, technology par proper baat karo no need for this",Roman Urdu,RU_Private_FB_Comments,offensive,1,1,offensive
+MOLB_001355,یہ تبصرہ بہت سخت ہے، براہ کرم ایسا لہجہ نہ اپنائیں update,یہ تبصرہ بہت سخت ہے، براہ کرم ایسا لہجہ نہ اپنائیں update,Urdu,UR_Private_Tweets,offensive,1,1,offensive
+MOLB_001400,ستاسو تبصره مناسبه ده comment,ستاسو تبصره مناسبه ده comment,Pashto,PS_LowResource_Private,non-offensive,0,0,non-offensive
+MOLB_003270,aaj ka politics discussion bohat acha tha please keep it respectful,aaj ka politics discussion bohat acha tha please keep it respectful,Roman Urdu,RU_Private_FB_Comments,non-offensive,0,0,non-offensive
+MOLB_001436,this comment is really childish and adds nothing to the local issue discussion,this comment is really childish and adds nothing to the local issue discussion,English,EN_Offensive_Benchmark_Private,offensive,1,1,offensive
+MOLB_001438,aisa sports wala post dekh kar sirf gussa aata hai please keep it respectful,aisa sports wala post dekh kar sirf gussa aata hai please keep it respectful,Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_002035,your reply sounds rude and completely unnecessary bhai,your reply sounds rude and completely unnecessary bhai,English,EN_Offensive_Benchmark_Private,offensive,1,1,offensive
+MOLB_003199,aaj ka news discussion bohat acha tha no need for this,aaj ka news discussion bohat acha tha no need for this,Roman Urdu,RU_Social_Media_Mix,non-offensive,0,0,non-offensive
+MOLB_001881,مهرباني وکړئ بحث په احترام سره وکړئ respect,مهرباني وکړئ بحث په احترام سره وکړئ respect,Pashto,PS_LowResource_Private,non-offensive,0,0,non-offensive
+MOLB_001562,"stop this bakwas, sports par proper baat karo seriously","stop this bakwas, sports par proper baat karo seriously",Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_001578,"tumhari baat bilkul rude hai, please ye weather drama band karo seriously","tumhari baat bilkul rude hai, please ye weather drama band karo seriously",Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_001583,"stop this bakwas, technology par proper baat karo seriously","stop this bakwas, technology par proper baat karo seriously",Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_001605,"tumhari baat bilkul fazool hai, please ye cricket drama band karo no need for this","tumhari baat bilkul fazool hai, please ye cricket drama band karo no need for this",Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_003503,this comment is really rude and adds nothing to the education discussion,this comment is really rude and adds nothing to the education discussion,English,EN_Offensive_Benchmark_Private,offensive,1,1,offensive
+MOLB_001636,یہ جواب بہت برا اور غیر ضروری ہے discussion,یہ جواب بہت برا اور غیر ضروری ہے discussion,Urdu,UR_ArabicScript_Private,offensive,1,1,offensive
+MOLB_001681,"tumhari baat bilkul badtameez hai, please ye weather drama band karo please keep it respectful","tumhari baat bilkul badtameez hai, please ye weather drama band karo please keep it respectful",Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_001682,aaj ka technology discussion bohat acha tha good point,aaj ka technology discussion bohat acha tha good point,Roman Urdu,RU_CodeMixed_Private,non-offensive,0,0,non-offensive
+MOLB_001769,آپ کا لہجہ بہت سخت اور نامناسب ہے please,آپ کا لہجہ بہت سخت اور نامناسب ہے please,Urdu,UR_Social_Media_Mix,offensive,1,1,offensive
+MOLB_001780,"tumhari baat bilkul rude hai, please ye local issue drama band karo seriously","tumhari baat bilkul rude hai, please ye local issue drama band karo seriously",Roman Urdu,RU_Private_FB_Comments,offensive,1,1,offensive
+MOLB_001822,"tumhari baat bilkul weak hai, please ye community drama band karo please keep it respectful","tumhari baat bilkul weak hai, please ye community drama band karo please keep it respectful",Roman Urdu,RU_Private_FB_Comments,offensive,1,1,offensive
+MOLB_001824,یہ تبصرہ مفید نہیں بلکہ الجھن پیدا کر رہا ہے discussion,یہ تبصرہ مفید نہیں بلکہ الجھن پیدا کر رہا ہے discussion,Urdu,UR_Private_Tweets,offensive,1,1,offensive
+MOLB_001863,this comment is really pointless and adds nothing to the entertainment discussion,this comment is really pointless and adds nothing to the entertainment discussion,English,EN_Social_Media_Mix,offensive,1,1,offensive
+MOLB_001906,آپ کی بات غیر مناسب اور بدتمیز محسوس ہو رہی ہے please,آپ کی بات غیر مناسب اور بدتمیز محسوس ہو رہی ہے please,Urdu,UR_ArabicScript_Private,offensive,1,1,offensive
+MOLB_005526,مجھے لگتا ہے اس پر مزید تفصیل ہونی چاہیے respect,مجھے لگتا ہے اس پر مزید تفصیل ہونی چاہیے respect,Urdu,UR_ArabicScript_Private,non-offensive,0,0,non-offensive
+MOLB_001966,"stop this bakwas, education par proper baat karo no need for this","stop this bakwas, education par proper baat karo no need for this",Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_002002,please keep the discussion respectful and useful samjho,please keep the discussion respectful and useful samjho,English,EN_Offensive_Benchmark_Private,non-offensive,0,0,non-offensive
+MOLB_002355,ستاسو نظر مې درک کړ respect,ستاسو نظر مې درک کړ respect,Pashto,PS_LowResource_Private,non-offensive,0,0,non-offensive
+MOLB_002026,ایسی سخت زبان استعمال کرنا درست نہیں admin,ایسی سخت زبان استعمال کرنا درست نہیں admin,Urdu,UR_ArabicScript_Private,offensive,1,1,offensive
+MOLB_003397,ye comment bohat ghalat aur badtameez lag raha hai good point,ye comment bohat ghalat aur badtameez lag raha hai good point,Roman Urdu,RU_Private_FB_Comments,offensive,1,1,offensive
+MOLB_002212,this comment is really childish and adds nothing to the sports discussion,this comment is really childish and adds nothing to the sports discussion,English,EN_Offensive_Benchmark_Private,offensive,1,1,offensive
+MOLB_002602,I appreciate the balanced response in this thread please,I appreciate the balanced response in this thread please,English,EN_Offensive_Benchmark_Private,non-offensive,0,0,non-offensive
+MOLB_002051,یہ تبصرہ بہت فضول ہے، براہ کرم ایسا لہجہ نہ اپنائیں admin,یہ تبصرہ بہت فضول ہے، براہ کرم ایسا لہجہ نہ اپنائیں admin,Urdu,UR_ArabicScript_Private,offensive,1,1,offensive
+MOLB_002056,براہ کرم گفتگو کو احترام کے ساتھ جاری رکھیں discussion,براہ کرم گفتگو کو احترام کے ساتھ جاری رکھیں discussion,Urdu,UR_ArabicScript_Private,non-offensive,0,0,non-offensive
+MOLB_002114,this post is just spreading pointless anger bhai,this post is just spreading pointless anger bhai,English,EN_Public_Comments,offensive,1,1,offensive
+MOLB_002128,نن د politics موضوع مهمه ده update,نن د politics موضوع مهمه ده update,Pashto,PS_LowResource_Private,non-offensive,0,0,non-offensive
+MOLB_002150,"tumhari baat bilkul fazool hai, please ye technology drama band karo","tumhari baat bilkul fazool hai, please ye technology drama band karo",Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_002152,aisa politics wala post dekh kar sirf gussa aata hai no need for this,aisa politics wala post dekh kar sirf gussa aata hai no need for this,Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_003982,یہ تبصرہ بہت غیر ضروری ہے، براہ کرم ایسا لہجہ نہ اپنائیں please,یہ تبصرہ بہت غیر ضروری ہے، براہ کرم ایسا لہجہ نہ اپنائیں please,Urdu,UR_Private_Tweets,offensive,1,1,offensive
+MOLB_002628,یہ تبصرہ مفید نہیں بلکہ الجھن پیدا کر رہا ہے respect,یہ تبصرہ مفید نہیں بلکہ الجھن پیدا کر رہا ہے respect,Urdu,UR_ArabicScript_Private,offensive,1,1,offensive
+MOLB_002240,نن د news موضوع مهمه ده comment,نن د news موضوع مهمه ده comment,Pashto,PS_LowResource_Private,non-offensive,0,0,non-offensive
+MOLB_002272,"stop this bakwas, cricket par proper baat karo calm down","stop this bakwas, cricket par proper baat karo calm down",Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_002328,aisa weather wala post dekh kar sirf gussa aata hai calm down,aisa weather wala post dekh kar sirf gussa aata hai calm down,Roman Urdu,RU_Private_FB_Comments,offensive,1,1,offensive
+MOLB_007433,یہ تبصرہ مفید نہیں بلکہ الجھن پیدا کر رہا ہے update,یہ تبصرہ مفید نہیں بلکہ الجھن پیدا کر رہا ہے update,Urdu,UR_Private_Tweets,offensive,1,1,offensive
+MOLB_002344,ye comment bohat fazool aur rude lag raha hai no need for this,ye comment bohat fazool aur rude lag raha hai no need for this,Roman Urdu,RU_Private_FB_Comments,offensive,1,1,offensive
+MOLB_002455,آج کا politics موضوع اہم ہے,آج کا politics موضوع اہم ہے,Urdu,UR_ArabicScript_Private,non-offensive,0,0,non-offensive
+MOLB_004068,ye comment bohat badtameez aur useless lag raha hai please keep it respectful,ye comment bohat badtameez aur useless lag raha hai please keep it respectful,Roman Urdu,RU_Private_FB_Comments,offensive,1,1,offensive
+MOLB_002534,"tumhari baat bilkul badtameez hai, please ye community drama band karo calm down","tumhari baat bilkul badtameez hai, please ye community drama band karo calm down",Roman Urdu,RU_Private_FB_Comments,offensive,1,1,offensive
+MOLB_002559,آج کا news موضوع اہم ہے please,آج کا news موضوع اہم ہے please,Urdu,UR_ArabicScript_Private,non-offensive,0,0,non-offensive
+MOLB_002567,aaj ka sports discussion bohat acha tha good point,aaj ka sports discussion bohat acha tha good point,Roman Urdu,RU_CodeMixed_Private,non-offensive,0,0,non-offensive
+MOLB_002589,"tumhari baat bilkul bekaar hai, please ye entertainment drama band karo seriously","tumhari baat bilkul bekaar hai, please ye entertainment drama band karo seriously",Roman Urdu,RU_Private_FB_Comments,offensive,1,1,offensive
+MOLB_002634,"stop this bakwas, politics par proper baat karo please keep it respectful","stop this bakwas, politics par proper baat karo please keep it respectful",Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_004734,ye comment bohat badtameez aur rude lag raha hai calm down,ye comment bohat badtameez aur rude lag raha hai calm down,Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_002680,نن د entertainment موضوع مهمه ده respect,نن د entertainment موضوع مهمه ده respect,Pashto,PS_LowResource_Private,non-offensive,0,0,non-offensive
+MOLB_002691,this comment is really unhelpful and adds nothing to the politics discussion,this comment is really unhelpful and adds nothing to the politics discussion,English,EN_Offensive_Benchmark_Private,offensive,1,1,offensive
+MOLB_002715,سب کو تحمل سے بات کرنی چاہیے respect,سب کو تحمل سے بات کرنی چاہیے respect,Urdu,UR_ArabicScript_Private,non-offensive,0,0,non-offensive
+MOLB_002728,this comment is really pointless and adds nothing to the weather discussion,this comment is really pointless and adds nothing to the weather discussion,English,EN_Public_Comments,offensive,1,1,offensive
+MOLB_002776,bhai itni fazool soch kahan se laate ho? good point,bhai itni fazool soch kahan se laate ho? good point,Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_002783,براہ کرم technology پر سنجیدہ بات کریں، طنز نہ کریں please,براہ کرم technology پر سنجیدہ بات کریں، طنز نہ کریں please,Urdu,UR_ArabicScript_Private,offensive,1,1,offensive
+MOLB_003975,I agree with some points and would like more details samjho,I agree with some points and would like more details samjho,English,EN_Offensive_Benchmark_Private,non-offensive,0,0,non-offensive
+MOLB_003135,stop posting this nonsense again and again yaar,stop posting this nonsense again and again yaar,English,EN_Offensive_Benchmark_Private,offensive,1,1,offensive
+MOLB_002848,this comment is really childish and adds nothing to the education discussion,this comment is really childish and adds nothing to the education discussion,English,EN_Offensive_Benchmark_Private,offensive,1,1,offensive
+MOLB_002897,"tumhari baat bilkul fazool hai, please ye entertainment drama band karo good point","tumhari baat bilkul fazool hai, please ye entertainment drama band karo good point",Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_002906,دا تبصره ډېره خرابه ده، مهرباني وکړئ داسې لهجه مه کاروئ comment,دا تبصره ډېره خرابه ده، مهرباني وکړئ داسې لهجه مه کاروئ comment,Pashto,PS_Private_Social_Comments,offensive,1,1,offensive
+MOLB_002911,@admin آج کا education موضوع اہم ہے update #update,آج کا education موضوع اہم ہے update #update,Urdu,UR_Social_Media_Mix,non-offensive,0,0,non-offensive
+MOLB_002913,"tumhari baat bilkul ghalat hai, please ye community drama band karo no need for this","tumhari baat bilkul ghalat hai, please ye community drama band karo no need for this",Roman Urdu,RU_Private_FB_Comments,offensive,1,1,offensive
+MOLB_002916,ye comment bohat bekaar aur useless lag raha hai calm down,ye comment bohat bekaar aur useless lag raha hai calm down,Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_002931,دا تبصره ډېره بې ادبه ده، مهرباني وکړئ داسې لهجه مه کاروئ update,دا تبصره ډېره بې ادبه ده، مهرباني وکړئ داسې لهجه مه کاروئ update,Pashto,PS_LowResource_Private,offensive,1,1,offensive
+MOLB_002966,"tumhari baat bilkul bekaar hai, please ye education drama band karo","tumhari baat bilkul bekaar hai, please ye education drama band karo",Roman Urdu,RU_Private_FB_Comments,offensive,1,1,offensive
+MOLB_002992,"tumhari baat bilkul rude hai, please ye local issue drama band karo good point","tumhari baat bilkul rude hai, please ye local issue drama band karo good point",Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_003073,دا تبصره ډېره بې ځایه ده، مهرباني وکړئ داسې لهجه مه کاروئ respect,دا تبصره ډېره بې ځایه ده، مهرباني وکړئ داسې لهجه مه کاروئ respect,Pashto,PS_LowResource_Private,offensive,1,1,offensive
+MOLB_003022,"tumhari baat bilkul badtameez hai, please ye entertainment drama band karo calm down","tumhari baat bilkul badtameez hai, please ye entertainment drama band karo calm down",Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_003038,"tumhari baat bilkul fazool hai, please ye weather drama band karo good point","tumhari baat bilkul fazool hai, please ye weather drama band karo good point",Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_003042,براہ کرم cricket پر سنجیدہ بات کریں، طنز نہ کریں discussion,براہ کرم cricket پر سنجیدہ بات کریں، طنز نہ کریں discussion,Urdu,UR_ArabicScript_Private,offensive,1,1,offensive
+MOLB_003051,"tumhari baat bilkul bekaar hai, please ye community drama band karo seriously","tumhari baat bilkul bekaar hai, please ye community drama band karo seriously",Roman Urdu,RU_Social_Media_Mix,offensive,1,1,offensive
+MOLB_003100,aaj ka education discussion bohat acha tha please keep it respectful,aaj ka education discussion bohat acha tha please keep it respectful,Roman Urdu,RU_CodeMixed_Private,non-offensive,0,0,non-offensive
+MOLB_004416,ye comment bohat ghalat aur weak lag raha hai calm down,ye comment bohat ghalat aur weak lag raha hai calm down,Roman Urdu,RU_Private_FB_Comments,offensive,1,1,offensive
+MOLB_003136,I appreciate the balanced response in this thread bhai,I appreciate the balanced response in this thread bhai,English,EN_Public_Comments,non-offensive,0,0,non-offensive
+MOLB_007803,"tumhari baat bilkul ghalat hai, please ye education drama band karo good point","tumhari baat bilkul ghalat hai, please ye education drama band karo good point",Roman Urdu,RU_Social_Media_Mix,offensive,1,1,offensive
+MOLB_003178,"tumhari baat bilkul ghalat hai, please ye entertainment drama band karo no need for this","tumhari baat bilkul ghalat hai, please ye entertainment drama band karo no need for this",Roman Urdu,RU_Private_FB_Comments,offensive,1,1,offensive
+MOLB_005732,آپ کی رائے مناسب ہے please,آپ کی رائے مناسب ہے please,Urdu,UR_Social_Media_Mix,non-offensive,0,0,non-offensive
+MOLB_003212,مهرباني وکړئ د community په اړه په احترام خبرې وکړئ update,مهرباني وکړئ د community په اړه په احترام خبرې وکړئ update,Pashto,PS_LowResource_Private,offensive,1,1,offensive
+MOLB_003286,"@user tumhari baat bilkul bekaar hai, please ye news drama band karo please keep it respectful","tumhari baat bilkul bekaar hai, please ye news drama band karo please keep it respectful",Roman Urdu,RU_Social_Media_Mix,offensive,1,1,offensive
+MOLB_003312,"tumhari baat bilkul badtameez hai, please ye politics drama band karo please keep it respectful","tumhari baat bilkul badtameez hai, please ye politics drama band karo please keep it respectful",Roman Urdu,RU_Private_FB_Comments,offensive,1,1,offensive
+MOLB_003368,ye comment bohat rude aur useless lag raha hai calm down,ye comment bohat rude aur useless lag raha hai calm down,Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_009996,ye comment bohat badtameez aur badtameez lag raha hai please keep it respectful,ye comment bohat badtameez aur badtameez lag raha hai please keep it respectful,Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_003480,aaj ka sports discussion bohat acha tha no need for this,aaj ka sports discussion bohat acha tha no need for this,Roman Urdu,RU_CodeMixed_Private,non-offensive,0,0,non-offensive
+MOLB_003558,the post is informative and clearly written bhai,the post is informative and clearly written bhai,English,EN_Offensive_Benchmark_Private,non-offensive,0,0,non-offensive
+MOLB_003572,aaj ka sports discussion bohat acha tha seriously,aaj ka sports discussion bohat acha tha seriously,Roman Urdu,RU_Private_FB_Comments,non-offensive,0,0,non-offensive
+MOLB_003666,دا تبصره ډېره بې ځایه ده، مهرباني وکړئ داسې لهجه مه کاروئ please,دا تبصره ډېره بې ځایه ده، مهرباني وکړئ داسې لهجه مه کاروئ please,Pashto,PS_LowResource_Private,offensive,1,1,offensive
+MOLB_003752,"tumhari baat bilkul bekaar hai, please ye cricket drama band karo good point","tumhari baat bilkul bekaar hai, please ye cricket drama band karo good point",Roman Urdu,RU_Social_Media_Mix,offensive,1,1,offensive
+MOLB_004608,ye comment bohat rude aur weak lag raha hai please keep it respectful,ye comment bohat rude aur weak lag raha hai please keep it respectful,Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_007136,مهرباني وکړئ د cricket په اړه په احترام خبرې وکړئ comment,مهرباني وکړئ د cricket په اړه په احترام خبرې وکړئ comment,Pashto,PS_LowResource_Private,offensive,1,1,offensive
+MOLB_008958,"tumhari baat bilkul weak hai, please ye local issue drama band karo calm down 🙄","tumhari baat bilkul weak hai, please ye local issue drama band karo calm down 🙄",Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_003886,ye comment bohat fazool aur immature lag raha hai seriously,ye comment bohat fazool aur immature lag raha hai seriously,Roman Urdu,RU_Private_FB_Comments,offensive,1,1,offensive
+MOLB_003913,ye comment bohat bekaar aur rude lag raha hai calm down,ye comment bohat bekaar aur rude lag raha hai calm down,Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_003967,this comment is really weak and adds nothing to the education discussion bhai 🙄,this comment is really weak and adds nothing to the education discussion bhai 🙄,English,EN_Social_Media_Mix,offensive,1,1,offensive
+MOLB_003976,this comment is really weak and adds nothing to the entertainment discussion,this comment is really weak and adds nothing to the entertainment discussion,English,EN_Public_Comments,offensive,1,1,offensive
+MOLB_003991,ye comment bohat weak aur weak lag raha hai calm down,ye comment bohat weak aur weak lag raha hai calm down,Roman Urdu,RU_Private_FB_Comments,offensive,1,1,offensive
+MOLB_004057,یہ معلومات بہت مفید ہیں، شکریہ please,یہ معلومات بہت مفید ہیں، شکریہ please,Urdu,UR_ArabicScript_Private,non-offensive,0,0,non-offensive
+MOLB_004058,"tumhari baat bilkul rude hai, please ye sports drama band karo seriously","tumhari baat bilkul rude hai, please ye sports drama band karo seriously",Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_004091,aaj ka technology discussion bohat acha tha no need for this,aaj ka technology discussion bohat acha tha no need for this,Roman Urdu,RU_CodeMixed_Private,non-offensive,0,0,non-offensive
+MOLB_004206,"tumhari baat bilkul bekaar hai, please ye education drama band karo calm down","tumhari baat bilkul bekaar hai, please ye education drama band karo calm down",Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_004252,"tumhari baat bilkul weak hai, please ye cricket drama band karo calm down","tumhari baat bilkul weak hai, please ye cricket drama band karo calm down",Roman Urdu,RU_Private_FB_Comments,offensive,1,1,offensive
+MOLB_004262,aaj ka local issue discussion bohat acha tha no need for this,aaj ka local issue discussion bohat acha tha no need for this,Roman Urdu,RU_CodeMixed_Private,non-offensive,0,0,non-offensive
+MOLB_010493,"tumhari baat bilkul ghalat hai, please ye cricket drama band karo no need for this","tumhari baat bilkul ghalat hai, please ye cricket drama band karo no need for this",Roman Urdu,RU_Social_Media_Mix,offensive,1,1,offensive
+MOLB_004308,"tumhari baat bilkul rude hai, please ye sports drama band karo calm down","tumhari baat bilkul rude hai, please ye sports drama band karo calm down",Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_004334,دا تبصره ډېره نامناسبه ده، مهرباني وکړئ داسې لهجه مه کاروئ update,دا تبصره ډېره نامناسبه ده، مهرباني وکړئ داسې لهجه مه کاروئ update,Pashto,PS_LowResource_Private,offensive,1,1,offensive
+MOLB_004346,ye comment bohat badtameez aur badtameez lag raha hai good point,ye comment bohat badtameez aur badtameez lag raha hai good point,Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_004350,آج کا community موضوع اہم ہے respect,آج کا community موضوع اہم ہے respect,Urdu,UR_Private_Tweets,non-offensive,0,0,non-offensive
+MOLB_004406,براہ کرم گفتگو کو احترام کے ساتھ جاری رکھیں admin,براہ کرم گفتگو کو احترام کے ساتھ جاری رکھیں admin,Urdu,UR_ArabicScript_Private,non-offensive,0,0,non-offensive
+MOLB_004441,دا تبصره ډېره غير ضروري ده، مهرباني وکړئ داسې لهجه مه کاروئ please,دا تبصره ډېره غير ضروري ده، مهرباني وکړئ داسې لهجه مه کاروئ please,Pashto,PS_LowResource_Private,offensive,1,1,offensive
+MOLB_004496,براہ کرم community پر سنجیدہ بات کریں، طنز نہ کریں update,براہ کرم community پر سنجیدہ بات کریں، طنز نہ کریں update,Urdu,UR_Private_Tweets,offensive,1,1,offensive
+MOLB_004515,ye comment bohat fazool aur immature lag raha hai please keep it respectful,ye comment bohat fazool aur immature lag raha hai please keep it respectful,Roman Urdu,RU_Social_Media_Mix,offensive,1,1,offensive
+MOLB_006087,ye comment bohat bekaar aur badtameez lag raha hai no need for this,ye comment bohat bekaar aur badtameez lag raha hai no need for this,Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_004620,this is a helpful update about local issue samjho,this is a helpful update about local issue samjho,English,EN_Offensive_Benchmark_Private,non-offensive,0,0,non-offensive
+MOLB_004648,"tumhari baat bilkul badtameez hai, please ye cricket drama band karo seriously","tumhari baat bilkul badtameez hai, please ye cricket drama band karo seriously",Roman Urdu,RU_Private_FB_Comments,offensive,1,1,offensive
+MOLB_004652,ye comment bohat ghalat aur weak lag raha hai seriously,ye comment bohat ghalat aur weak lag raha hai seriously,Roman Urdu,RU_Private_FB_Comments,offensive,1,1,offensive
+MOLB_004697,this comment is really childish and adds nothing to the politics discussion bhai #viral,this comment is really childish and adds nothing to the politics discussion bhai #viral,English,EN_Offensive_Benchmark_Private,offensive,1,1,offensive
+MOLB_004770,"tumhari baat bilkul weak hai, please ye technology drama band karo good point","tumhari baat bilkul weak hai, please ye technology drama band karo good point",Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_004844,this comment is really childish and adds nothing to the news discussion please #today,this comment is really childish and adds nothing to the news discussion please #today,English,EN_Offensive_Benchmark_Private,offensive,1,1,offensive
+MOLB_004914,آج کا community موضوع اہم ہے admin,آج کا community موضوع اہم ہے admin,Urdu,UR_ArabicScript_Private,non-offensive,0,0,non-offensive
+MOLB_004928,آپ کا لہجہ بہت سخت اور نامناسب ہے respect,آپ کا لہجہ بہت سخت اور نامناسب ہے respect,Urdu,UR_Social_Media_Mix,offensive,1,1,offensive
+MOLB_004962,براہ کرم گفتگو کو احترام کے ساتھ جاری رکھیں please,براہ کرم گفتگو کو احترام کے ساتھ جاری رکھیں please,Urdu,UR_ArabicScript_Private,non-offensive,0,0,non-offensive
+MOLB_005068,"tumhari baat bilkul rude hai, please ye politics drama band karo calm down","tumhari baat bilkul rude hai, please ye politics drama band karo calm down",Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_005075,this comment is really hostile and adds nothing to the politics discussion samjho https://example.com/post,this comment is really hostile and adds nothing to the politics discussion samjho,English,EN_Social_Media_Mix,offensive,1,1,offensive
+MOLB_005607,"tumhari baat bilkul fazool hai, please ye technology drama band karo no need for this","tumhari baat bilkul fazool hai, please ye technology drama band karo no need for this",Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_005123,aaj ka community discussion bohat acha tha calm down,aaj ka community discussion bohat acha tha calm down,Roman Urdu,RU_Private_FB_Comments,non-offensive,0,0,non-offensive
+MOLB_009322,مهرباني وکړئ د community په اړه په احترام خبرې وکړئ comment,مهرباني وکړئ د community په اړه په احترام خبرې وکړئ comment,Pashto,PS_LowResource_Private,offensive,1,1,offensive
+MOLB_005175,@user this comment is really pointless and adds nothing to the technology discussion samjho,this comment is really pointless and adds nothing to the technology discussion samjho,English,EN_Public_Comments,offensive,1,1,offensive
+MOLB_005250,this comment is really pointless and adds nothing to the news discussion please,this comment is really pointless and adds nothing to the news discussion please,English,EN_Social_Media_Mix,offensive,1,1,offensive
+MOLB_005286,ye comment bohat bekaar aur rude lag raha hai no need for this,ye comment bohat bekaar aur rude lag raha hai no need for this,Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_005349,آج کا local issue موضوع اہم ہے respect,آج کا local issue موضوع اہم ہے respect,Urdu,UR_Social_Media_Mix,non-offensive,0,0,non-offensive
+MOLB_005419,"tumhari baat bilkul weak hai, please ye weather drama band karo calm down","tumhari baat bilkul weak hai, please ye weather drama band karo calm down",Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_007185,aaj ka politics discussion bohat acha tha no need for this,aaj ka politics discussion bohat acha tha no need for this,Roman Urdu,RU_CodeMixed_Private,non-offensive,0,0,non-offensive
+MOLB_005499,"tumhari baat bilkul ghalat hai, please ye sports drama band karo good point","tumhari baat bilkul ghalat hai, please ye sports drama band karo good point",Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_005522,"tumhari baat bilkul weak hai, please ye entertainment drama band karo seriously","tumhari baat bilkul weak hai, please ye entertainment drama band karo seriously",Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_005641,this comment is really weak and adds nothing to the sports discussion bhai,this comment is really weak and adds nothing to the sports discussion bhai,English,EN_Offensive_Benchmark_Private,offensive,1,1,offensive
+MOLB_005644,مهرباني وکړئ د sports په اړه په احترام خبرې وکړئ update,مهرباني وکړئ د sports په اړه په احترام خبرې وکړئ update,Pashto,PS_LowResource_Private,offensive,1,1,offensive
+MOLB_005710,ye comment bohat badtameez aur immature lag raha hai good point,ye comment bohat badtameez aur immature lag raha hai good point,Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_005755,this comment is really childish and adds nothing to the politics discussion please,this comment is really childish and adds nothing to the politics discussion please,English,EN_Offensive_Benchmark_Private,offensive,1,1,offensive
+MOLB_006195,مهرباني وکړئ د politics په اړه په احترام خبرې وکړئ comment,مهرباني وکړئ د politics په اړه په احترام خبرې وکړئ comment,Pashto,PS_Private_Social_Comments,offensive,1,1,offensive
+MOLB_006404,this is a helpful update about cricket yaar https://example.com/post,this is a helpful update about cricket yaar,English,EN_Offensive_Benchmark_Private,non-offensive,0,0,non-offensive
+MOLB_006490,یہ وضاحت کافی مددگار ہے respect,یہ وضاحت کافی مددگار ہے respect,Urdu,UR_ArabicScript_Private,non-offensive,0,0,non-offensive
+MOLB_006531,"tumhari baat bilkul badtameez hai, please ye sports drama band karo calm down","tumhari baat bilkul badtameez hai, please ye sports drama band karo calm down",Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_006636,نن د sports موضوع مهمه ده comment,نن د sports موضوع مهمه ده comment,Pashto,PS_LowResource_Private,non-offensive,0,0,non-offensive
+MOLB_006676,"tumhari baat bilkul fazool hai, please ye sports drama band karo seriously","tumhari baat bilkul fazool hai, please ye sports drama band karo seriously",Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_006686,this comment is really unhelpful and adds nothing to the community discussion samjho,this comment is really unhelpful and adds nothing to the community discussion samjho,English,EN_Public_Comments,offensive,1,1,offensive
+MOLB_006806,"tumhari baat bilkul weak hai, please ye local issue drama band karo good point","tumhari baat bilkul weak hai, please ye local issue drama band karo good point",Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_008859,"tumhari baat bilkul fazool hai, please ye weather drama band karo calm down 🙂","tumhari baat bilkul fazool hai, please ye weather drama band karo calm down 🙂",Roman Urdu,RU_Social_Media_Mix,offensive,1,1,offensive
+MOLB_006966,this is a helpful update about local issue yaar,this is a helpful update about local issue yaar,English,EN_Public_Comments,non-offensive,0,0,non-offensive
+MOLB_007095,براہ کرم sports پر سنجیدہ بات کریں، طنز نہ کریں please,براہ کرم sports پر سنجیدہ بات کریں، طنز نہ کریں please,Urdu,UR_ArabicScript_Private,offensive,1,1,offensive
+MOLB_007109,آج کا local issue موضوع اہم ہے admin,آج کا local issue موضوع اہم ہے admin,Urdu,UR_Private_Tweets,non-offensive,0,0,non-offensive
+MOLB_007145,براہ کرم entertainment پر سنجیدہ بات کریں، طنز نہ کریں discussion 😐,براہ کرم entertainment پر سنجیدہ بات کریں، طنز نہ کریں discussion 😐,Urdu,UR_Private_Tweets,offensive,1,1,offensive
+MOLB_007154,this comment is really hostile and adds nothing to the community discussion please,this comment is really hostile and adds nothing to the community discussion please,English,EN_Social_Media_Mix,offensive,1,1,offensive
+MOLB_007254,@page this is a helpful update about technology please,this is a helpful update about technology please,English,EN_Offensive_Benchmark_Private,non-offensive,0,0,non-offensive
+MOLB_007262,"tumhari baat bilkul badtameez hai, please ye sports drama band karo seriously","tumhari baat bilkul badtameez hai, please ye sports drama band karo seriously",Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_007288,"tumhari baat bilkul bekaar hai, please ye weather drama band karo good point","tumhari baat bilkul bekaar hai, please ye weather drama band karo good point",Roman Urdu,RU_Private_FB_Comments,offensive,1,1,offensive
+MOLB_007335,this comment is really childish and adds nothing to the weather discussion please,this comment is really childish and adds nothing to the weather discussion please,English,EN_Offensive_Benchmark_Private,offensive,1,1,offensive
+MOLB_007531,براہ کرم cricket پر سنجیدہ بات کریں، طنز نہ کریں admin,براہ کرم cricket پر سنجیدہ بات کریں، طنز نہ کریں admin,Urdu,UR_Private_Tweets,offensive,1,1,offensive
+MOLB_007541,"tumhari baat bilkul fazool hai, please ye politics drama band karo calm down","tumhari baat bilkul fazool hai, please ye politics drama band karo calm down",Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_007873,ye comment bohat weak aur immature lag raha hai calm down,ye comment bohat weak aur immature lag raha hai calm down,Roman Urdu,RU_Private_FB_Comments,offensive,1,1,offensive
+MOLB_011774,this comment is really childish and adds nothing to the news discussion yaar,this comment is really childish and adds nothing to the news discussion yaar,English,EN_Social_Media_Mix,offensive,1,1,offensive
+MOLB_007985,"tumhari baat bilkul rude hai, please ye sports drama band karo good point","tumhari baat bilkul rude hai, please ye sports drama band karo good point",Roman Urdu,RU_Private_FB_Comments,offensive,1,1,offensive
+MOLB_008008,this comment is really weak and adds nothing to the community discussion bhai,this comment is really weak and adds nothing to the community discussion bhai,English,EN_Social_Media_Mix,offensive,1,1,offensive
+MOLB_008174,this is a helpful update about entertainment bhai,this is a helpful update about entertainment bhai,English,EN_Offensive_Benchmark_Private,non-offensive,0,0,non-offensive
+MOLB_008341,this comment is really childish and adds nothing to the local issue discussion please,this comment is really childish and adds nothing to the local issue discussion please,English,EN_Social_Media_Mix,offensive,1,1,offensive
+MOLB_008773,"tumhari baat bilkul badtameez hai, please ye community drama band karo please keep it respectful","tumhari baat bilkul badtameez hai, please ye community drama band karo please keep it respectful",Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_010922,آج کا weather موضوع اہم ہے update,آج کا weather موضوع اہم ہے update,Urdu,UR_Private_Tweets,non-offensive,0,0,non-offensive
+MOLB_008984,براہ کرم entertainment پر سنجیدہ بات کریں، طنز نہ کریں admin,براہ کرم entertainment پر سنجیدہ بات کریں، طنز نہ کریں admin,Urdu,UR_ArabicScript_Private,offensive,1,1,offensive
+MOLB_009332,this is a helpful update about weather bhai,this is a helpful update about weather bhai,English,EN_Offensive_Benchmark_Private,non-offensive,0,0,non-offensive
+MOLB_009453,براہ کرم weather پر سنجیدہ بات کریں، طنز نہ کریں please,براہ کرم weather پر سنجیدہ بات کریں، طنز نہ کریں please,Urdu,UR_ArabicScript_Private,offensive,1,1,offensive
+MOLB_009506,this comment is really rude and adds nothing to the entertainment discussion please 😐,this comment is really rude and adds nothing to the entertainment discussion please 😐,English,EN_Offensive_Benchmark_Private,offensive,1,1,offensive
+MOLB_009665,براہ کرم entertainment پر سنجیدہ بات کریں، طنز نہ کریں please,براہ کرم entertainment پر سنجیدہ بات کریں، طنز نہ کریں please,Urdu,UR_Social_Media_Mix,offensive,1,1,offensive
+MOLB_010072,this comment is really rude and adds nothing to the politics discussion bhai https://example.com/post,this comment is really rude and adds nothing to the politics discussion bhai,English,EN_Offensive_Benchmark_Private,offensive,1,1,offensive
+MOLB_010182,"tumhari baat bilkul badtameez hai, please ye news drama band karo please keep it respectful","tumhari baat bilkul badtameez hai, please ye news drama band karo please keep it respectful",Roman Urdu,RU_Social_Media_Mix,offensive,1,1,offensive
+MOLB_010248,"tumhari baat bilkul badtameez hai, please ye local issue drama band karo seriously","tumhari baat bilkul badtameez hai, please ye local issue drama band karo seriously",Roman Urdu,RU_Social_Media_Mix,offensive,1,1,offensive
+MOLB_010260,"tumhari baat bilkul badtameez hai, please ye technology drama band karo good point","tumhari baat bilkul badtameez hai, please ye technology drama band karo good point",Roman Urdu,RU_CodeMixed_Private,offensive,1,1,offensive
+MOLB_010850,براہ کرم news پر سنجیدہ بات کریں، طنز نہ کریں discussion,براہ کرم news پر سنجیدہ بات کریں، طنز نہ کریں discussion,Urdu,UR_Social_Media_Mix,offensive,1,1,offensive
+MOLB_011106,this comment is really rude and adds nothing to the cricket discussion bhai,this comment is really rude and adds nothing to the cricket discussion bhai,English,EN_Offensive_Benchmark_Private,offensive,1,1,offensive
+MOLB_011301,this comment is really weak and adds nothing to the community discussion please,this comment is really weak and adds nothing to the community discussion please,English,EN_Offensive_Benchmark_Private,offensive,1,1,offensive
+MOLB_011474,this comment is really childish and adds nothing to the cricket discussion please,this comment is really childish and adds nothing to the cricket discussion please,English,EN_Offensive_Benchmark_Private,offensive,1,1,offensive
+MOLB_011677,this comment is really childish and adds nothing to the sports discussion please,this comment is really childish and adds nothing to the sports discussion please,English,EN_Public_Comments,offensive,1,1,offensive
+MOLB_011691,this comment is really childish and adds nothing to the local issue discussion yaar,this comment is really childish and adds nothing to the local issue discussion yaar,English,EN_Social_Media_Mix,offensive,1,1,offensive
+MOLB_011693,this comment is really unhelpful and adds nothing to the weather discussion bhai,this comment is really unhelpful and adds nothing to the weather discussion bhai,English,EN_Public_Comments,offensive,1,1,offensive

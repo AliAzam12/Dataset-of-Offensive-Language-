@@ -1,0 +1,79 @@
+{
+  "total_full_rows": 1601,
+  "train_rows": 1121,
+  "validation_rows": 160,
+  "test_rows": 320,
+  "row_sum_check": true,
+  "unique_ids_full": 1601,
+  "id_is_unique": true,
+  "missing_clean_text": 0,
+  "missing_raw_text": 0,
+  "valid_labels_check": true,
+  "valid_languages_check": true,
+  "leakage_detected": false,
+  "overlap_checks": {
+    "raw_text_train_val": 0,
+    "raw_text_train_test": 0,
+    "raw_text_val_test": 0,
+    "clean_text_train_val": 0,
+    "clean_text_train_test": 0,
+    "clean_text_val_test": 0,
+    "dedup_normalized_text_train_val": 0,
+    "dedup_normalized_text_train_test": 0,
+    "dedup_normalized_text_val_test": 0,
+    "base_message_train_val": 0,
+    "base_message_train_test": 0,
+    "base_message_val_test": 0,
+    "independence_group_id_train_val": 0,
+    "independence_group_id_train_test": 0,
+    "independence_group_id_val_test": 0
+  },
+  "language_breakdown": {
+    "English": {
+      "total": 321,
+      "train": 225,
+      "val": 32,
+      "test": 64,
+      "offensive": 228,
+      "non_offensive": 93
+    },
+    "Pashto": {
+      "total": 215,
+      "train": 150,
+      "val": 22,
+      "test": 43,
+      "offensive": 120,
+      "non_offensive": 95
+    },
+    "Roman Urdu": {
+      "total": 822,
+      "train": 576,
+      "val": 82,
+      "test": 164,
+      "offensive": 708,
+      "non_offensive": 114
+    },
+    "Urdu": {
+      "total": 243,
+      "train": 170,
+      "val": 24,
+      "test": 49,
+      "offensive": 140,
+      "non_offensive": 103
+    }
+  },
+  "label_breakdown": {
+    "non-offensive": {
+      "total": 405,
+      "train": 283,
+      "val": 40,
+      "test": 82
+    },
+    "offensive": {
+      "total": 1196,
+      "train": 838,
+      "val": 120,
+      "test": 238
+    }
+  }
+}

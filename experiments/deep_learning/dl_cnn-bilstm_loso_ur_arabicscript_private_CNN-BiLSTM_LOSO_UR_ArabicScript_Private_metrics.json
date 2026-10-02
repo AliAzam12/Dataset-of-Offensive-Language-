@@ -1,0 +1,40 @@
+{
+  "run_id": "dl_cnn-bilstm_loso_ur_arabicscript_private",
+  "model_name": "CNN-BiLSTM_LOSO_UR_ArabicScript_Private",
+  "accuracy": 0.9302,
+  "macro_precision": 0.9322,
+  "macro_recall": 0.9265,
+  "macro_f1": 0.9288,
+  "weighted_f1": 0.93,
+  "offensive_f1": 0.9388,
+  "non_offensive_f1": 0.9189,
+  "confusion_matrix": [
+    [
+      51,
+      6
+    ],
+    [
+      3,
+      69
+    ]
+  ],
+  "languages": {
+    "Urdu": {
+      "samples": 129,
+      "accuracy": 0.9302,
+      "macro_f1": 0.9288,
+      "offensive_f1": 0.9388,
+      "non_offensive_f1": 0.9189,
+      "confusion_matrix": [
+        [
+          51,
+          6
+        ],
+        [
+          3,
+          69
+        ]
+      ]
+    }
+  }
+}

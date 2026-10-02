@@ -8,4 +8,12 @@ venv/
 models/
 outputs/
 checkpoints/
+bin/
+scratch/
+*.aux
+*.out
+*.toc
+*.bbl
+*.blg
+*.synctex.gz
 *.log

@@ -1,0 +1,17 @@
+held_out_source,language,model,family,held_out_samples,train_samples,in_domain_macro_f1,held_out_macro_f1,held_out_accuracy,absolute_f1_drop,retention_percent
+RU_CodeMixed_Private,Roman Urdu,Linear_SVM,Traditional ML,461,969,0.9917,1.0,1.0,-0.0083,100.84
+RU_CodeMixed_Private,Roman Urdu,CNN-BiLSTM,Deep Learning,461,969,0.9959,0.9816,0.9913,0.0143,98.56
+RU_Private_FB_Comments,Roman Urdu,Linear_SVM,Traditional ML,224,1171,0.9917,0.9796,0.9911,0.0121,98.78
+RU_Private_FB_Comments,Roman Urdu,CNN-BiLSTM,Deep Learning,224,1171,0.9959,1.0,1.0,-0.0041,100.41
+EN_Offensive_Benchmark_Private,English,Linear_SVM,Traditional ML,160,1225,0.9917,0.9334,0.9437,0.0583,94.12
+EN_Offensive_Benchmark_Private,English,CNN-BiLSTM,Deep Learning,160,1225,0.9959,1.0,1.0,-0.0041,100.41
+UR_ArabicScript_Private,Urdu,Linear_SVM,Traditional ML,129,1252,0.9917,0.9444,0.9457,0.0473,95.23
+UR_ArabicScript_Private,Urdu,CNN-BiLSTM,Deep Learning,129,1252,0.9959,0.9288,0.9302,0.0671,93.26
+PS_LowResource_Private,Pashto,Linear_SVM,Traditional ML,121,1258,0.9917,0.9577,0.9587,0.034,96.58
+PS_LowResource_Private,Pashto,CNN-BiLSTM,Deep Learning,121,1258,0.9959,0.8667,0.8678,0.1292,87.03
+EN_Public_Comments,English,Linear_SVM,Traditional ML,103,1274,0.9917,1.0,1.0,-0.0083,100.84
+EN_Public_Comments,English,CNN-BiLSTM,Deep Learning,103,1274,0.9959,1.0,1.0,-0.0041,100.41
+PS_Private_Social_Comments,Pashto,Linear_SVM,Traditional ML,73,1299,0.9917,0.9578,0.9589,0.0339,96.58
+PS_Private_Social_Comments,Pashto,CNN-BiLSTM,Deep Learning,73,1299,0.9959,0.9434,0.9452,0.0525,94.73
+UR_Private_Tweets,Urdu,Linear_SVM,Traditional ML,70,1302,0.9917,1.0,1.0,-0.0083,100.84
+UR_Private_Tweets,Urdu,CNN-BiLSTM,Deep Learning,70,1302,0.9959,1.0,1.0,-0.0041,100.41

@@ -1,0 +1,6 @@
+ablation_condition,description,accuracy,macro_precision,macro_recall,macro_f1,delta_macro_f1,weighted_f1,train_time_sec
+Full_Configuration,"Baseline: clean_text + class_weight='balanced' + sublinear_tf=True + ngram(1,2)",1.0,1.0,1.0,1.0,0.0,1.0,0.309
+Without_Class_Weighting,Ablate class weighting (class_weight=None),0.9938,0.9958,0.9878,0.9917,-0.0083,0.9937,0.022
+Without_Sublinear_TF,Ablate sublinear TF scaling (sublinear_tf=False),1.0,1.0,1.0,1.0,0.0,1.0,0.023
+Raw_Text_Instead_Of_Clean_Text,Ablate text normalization: evaluate on raw 'text' instead of 'clean_text',1.0,1.0,1.0,1.0,0.0,1.0,0.004
+Unigrams_Only_No_Bigrams,"Ablate bigrams: ngram_range=(1, 1)",0.9938,0.9958,0.9878,0.9917,-0.0083,0.9937,0.005

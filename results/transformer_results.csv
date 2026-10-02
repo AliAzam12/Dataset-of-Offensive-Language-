@@ -1,0 +1,4 @@
+family,model,exact_checkpoint_id,best_epoch,val_macro_f1,accuracy,macro_precision,macro_recall,macro_f1,weighted_f1,offensive_f1,non_offensive_f1,train_time_sec,infer_latency_ms,checkpoint_path,status,English_macro_f1,Pashto_macro_f1,Roman Urdu_macro_f1,Urdu_macro_f1
+Transformer,mBERT,bert-base-multilingual-cased,1.0,1.0,0.9875,0.9836,0.9836,0.9836,0.9875,0.9916,0.9756,1842.77,108.0169,E:\Github Repos\Dataset-of-Offensive-Language-\checkpoints\transformers\mBERT_best.pt,completed,1.0,0.9522,1.0,0.9588
+Transformer,IndicBERT,ai4bharat/indic-bert,,,,,,,,,,,,,Skipped (Gated HuggingFace repository (401 Client Error: requires HF auth token)),,,,
+Transformer,PashtoBERT,PashtoBERT,,,,,,,,,,,,,Skipped (No verified exact public repository found on HuggingFace Hub),,,,

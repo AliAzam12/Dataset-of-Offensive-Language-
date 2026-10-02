@@ -1,0 +1,46 @@
+# Transformer Models Configuration
+# Dataset: Cleaned Multilingual Offensive Language Dataset (Urdu, Roman Urdu, Pashto, English)
+
+seed: 42
+data:
+  train_path: "Dataset/train.csv"
+  val_path: "Dataset/validation.csv"
+  test_path: "Dataset/test.csv"
+  max_length: 128
+  batch_size: 16
+
+training:
+  epochs: 3
+  early_stopping_patience: 2
+  learning_rate: 2.0e-5
+  lr_candidates: [1.0e-5, 2.0e-5, 3.0e-5]
+  weight_decay: 0.01
+  warmup_ratio: 0.1
+  metric_for_best_model: "macro_f1"
+
+models:
+  mBERT:
+    checkpoint_id: "bert-base-multilingual-cased"
+    verified: true
+    family: "BERT"
+    source: "HuggingFace Hub"
+  XLM-RoBERTa:
+    checkpoint_id: "FacebookAI/xlm-roberta-base"
+    verified: true
+    family: "RoBERTa"
+    source: "HuggingFace Hub"
+  MuRIL:
+    checkpoint_id: "google/muril-base-cased"
+    verified: true
+    family: "BERT"
+    source: "HuggingFace Hub"
+  IndicBERT:
+    checkpoint_id: "ai4bharat/indic-bert"
+    verified: false
+    status: "gated"
+    reason: "Repository requires gated HF authorization token (401 Client Error: GatedRepoError)"
+  PashtoBERT:
+    checkpoint_id: "PashtoBERT"
+    verified: false
+    status: "unverified"
+    reason: "No exact repository checkpoint found on public HuggingFace Hub"

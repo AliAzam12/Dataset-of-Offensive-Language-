@@ -1,0 +1,36 @@
+# Deep Learning Baseline Configurations
+# Dataset: Cleaned Multilingual Offensive Language Dataset (Urdu, Roman Urdu, Pashto, English)
+
+seed: 42
+data:
+  train_path: "Dataset/train.csv"
+  val_path: "Dataset/validation.csv"
+  test_path: "Dataset/test.csv"
+  max_vocab_size: 25000
+  max_seq_len: 128
+  batch_size: 32
+
+training:
+  max_epochs: 15
+  patience: 3
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  embedding_dim: 128
+  hidden_dim: 128
+  num_classes: 2
+  dropout: 0.3
+
+models:
+  CNN:
+    num_filters: 100
+    filter_sizes: [3, 4, 5]
+  BiLSTM:
+    num_layers: 2
+    bidirectional: true
+  CNN-BiLSTM:
+    num_filters: 64
+    filter_sizes: [3, 4]
+    lstm_hidden_dim: 64
+  Attention-BiLSTM:
+    num_layers: 2
+    attention_dim: 64

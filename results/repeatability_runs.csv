@@ -1,0 +1,16 @@
+model,family,seed,train_time_sec,accuracy,macro_precision,macro_recall,macro_f1,weighted_f1
+Linear_SVM,Traditional ML,42,0.018,0.9938,0.9958,0.9878,0.9917,0.9937
+Linear_SVM,Traditional ML,123,0.002,0.9938,0.9958,0.9878,0.9917,0.9937
+Linear_SVM,Traditional ML,456,0.003,0.9938,0.9958,0.9878,0.9917,0.9937
+Linear_SVM,Traditional ML,789,0.003,0.9938,0.9958,0.9878,0.9917,0.9937
+Linear_SVM,Traditional ML,2026,0.002,0.9938,0.9958,0.9878,0.9917,0.9937
+CNN-BiLSTM,Deep Learning,42,4.09,0.9969,0.9979,0.9939,0.9959,0.9969
+CNN-BiLSTM,Deep Learning,123,4.97,0.9969,0.9979,0.9939,0.9959,0.9969
+CNN-BiLSTM,Deep Learning,456,5.76,0.9969,0.9979,0.9939,0.9959,0.9969
+CNN-BiLSTM,Deep Learning,789,5.44,0.9969,0.9979,0.9939,0.9959,0.9969
+CNN-BiLSTM,Deep Learning,2026,5.97,0.9969,0.9979,0.9939,0.9959,0.9969
+Multinomial_Naive_Bayes,Traditional ML,42,0.007,1.0,1.0,1.0,1.0,1.0
+Multinomial_Naive_Bayes,Traditional ML,123,0.002,1.0,1.0,1.0,1.0,1.0
+Multinomial_Naive_Bayes,Traditional ML,456,0.005,1.0,1.0,1.0,1.0,1.0
+Multinomial_Naive_Bayes,Traditional ML,789,0.013,1.0,1.0,1.0,1.0,1.0
+Multinomial_Naive_Bayes,Traditional ML,2026,0.003,1.0,1.0,1.0,1.0,1.0

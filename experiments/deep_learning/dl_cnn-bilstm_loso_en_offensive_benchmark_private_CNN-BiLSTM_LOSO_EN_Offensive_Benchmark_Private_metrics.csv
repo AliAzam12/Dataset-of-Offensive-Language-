@@ -1,0 +1,2 @@
+run_id,model_name,accuracy,macro_precision,macro_recall,macro_f1,weighted_f1,offensive_f1,non_offensive_f1,English_samples,English_accuracy,English_macro_f1
+dl_cnn-bilstm_loso_en_offensive_benchmark_private,CNN-BiLSTM_LOSO_EN_Offensive_Benchmark_Private,1.0,1.0,1.0,1.0,1.0,1.0,1.0,160,1.0,1.0

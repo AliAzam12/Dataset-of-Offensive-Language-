@@ -1,0 +1,13 @@
+source_dataset,language,script,nominal_raw_rows,clean_unique_rows,collapse_rate_pct,origin_platform,observed_text_variation_pattern
+RU_CodeMixed_Private,Roman Urdu,Latin,24584,2901,88.2,Facebook / Social Mix,Mention and URL permutations prepended/appended over seed comments
+RU_Private_FB_Comments,Roman Urdu,Latin,24122,1972,91.8,Facebook Pages,Public comment seeds replicated via account handle permutations
+RU_Social_Media_Mix,Roman Urdu,Latin,24294,1459,94.0,Forums / Social,Public forum comments augmented with synthetic filler tokens and hashtags
+PS_LowResource_Private,Pashto,Arabic-Pashto,11265,999,91.1,Social Media,Template slot-filled sentences with English domain keywords
+PS_Private_Social_Comments,Pashto,Arabic-Pashto,11651,712,93.9,Social Media,Native comments replicated across placeholder mention prefixes
+PS_Public_Forum_Mix,Pashto,Arabic-Pashto,11484,506,95.6,Public Forums,Forum comments heavily duplicated across splits in uncurated data
+EN_Offensive_Benchmark_Private,English,Latin,8453,834,90.1,Web Benchmark Scrapes,Public benchmark samples modified with template noise and handles
+EN_Public_Comments,English,Latin,8153,575,92.9,Public News / Web,Web comments replicated across multiple platform metadata tags
+EN_Social_Media_Mix,English,Latin,8177,432,94.7,Twitter / Reddit Mix,Public comments with synthetic handle prefixes and hashtags
+UR_ArabicScript_Private,Urdu,Perso-Arabic,3962,613,84.5,News / Chat,Native script sentences expanded via mention handles and emojis
+UR_Private_Tweets,Urdu,Perso-Arabic,4124,448,89.1,Twitter / X,Public tweets programmatically replicated with handle prefixes
+UR_Social_Media_Mix,Urdu,Perso-Arabic,3996,338,91.5,Multi-platform Social,Comments replicated across uniform topic category slots

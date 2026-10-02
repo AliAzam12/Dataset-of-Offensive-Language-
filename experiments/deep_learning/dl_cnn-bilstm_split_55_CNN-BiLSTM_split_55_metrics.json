@@ -1,0 +1,91 @@
+{
+  "run_id": "dl_cnn-bilstm_split_55",
+  "model_name": "CNN-BiLSTM_split_55",
+  "accuracy": 1.0,
+  "macro_precision": 1.0,
+  "macro_recall": 1.0,
+  "macro_f1": 1.0,
+  "weighted_f1": 1.0,
+  "offensive_f1": 1.0,
+  "non_offensive_f1": 1.0,
+  "confusion_matrix": [
+    [
+      97,
+      0
+    ],
+    [
+      0,
+      224
+    ]
+  ],
+  "languages": {
+    "English": {
+      "samples": 60,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "offensive_f1": 1.0,
+      "non_offensive_f1": 1.0,
+      "confusion_matrix": [
+        [
+          19,
+          0
+        ],
+        [
+          0,
+          41
+        ]
+      ]
+    },
+    "Pashto": {
+      "samples": 44,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "offensive_f1": 1.0,
+      "non_offensive_f1": 1.0,
+      "confusion_matrix": [
+        [
+          26,
+          0
+        ],
+        [
+          0,
+          18
+        ]
+      ]
+    },
+    "Roman Urdu": {
+      "samples": 159,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "offensive_f1": 1.0,
+      "non_offensive_f1": 1.0,
+      "confusion_matrix": [
+        [
+          26,
+          0
+        ],
+        [
+          0,
+          133
+        ]
+      ]
+    },
+    "Urdu": {
+      "samples": 58,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "offensive_f1": 1.0,
+      "non_offensive_f1": 1.0,
+      "confusion_matrix": [
+        [
+          26,
+          0
+        ],
+        [
+          0,
+          32
+        ]
+      ]
+    }
+  }
+}

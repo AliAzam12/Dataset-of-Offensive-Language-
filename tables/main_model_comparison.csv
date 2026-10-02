@@ -1,0 +1,10 @@
+Family,Model,Accuracy,Precision,Recall,Macro-F1,Weighted-F1,Training Time (s),Inference Latency (ms)
+Traditional ML,Multinomial_Naive_Bayes,1.0,1.0,1.0,1.0,1.0,0.02,0.0204
+Traditional ML,Random_Forest,1.0,1.0,1.0,1.0,1.0,0.19,0.0492
+Deep Learning,CNN-BiLSTM,0.9969,0.9979,0.9939,0.9959,0.9969,4.44,0.148
+Traditional ML,Linear_SVM,0.9938,0.9958,0.9878,0.9917,0.9937,0.02,0.0185
+Traditional ML,Logistic_Regression,0.9938,0.9958,0.9878,0.9917,0.9937,0.03,0.0218
+Deep Learning,CNN,0.9938,0.9958,0.9878,0.9917,0.9937,1.64,0.0881
+Deep Learning,BiLSTM,0.9938,0.9958,0.9878,0.9917,0.9937,4.16,0.1647
+Deep Learning,Attention-BiLSTM,0.9875,0.9836,0.9836,0.9836,0.9875,5.44,0.2543
+Transformer,mBERT,0.9875,0.9836,0.9836,0.9836,0.9875,1842.77,108.0169

@@ -1,0 +1,2 @@
+run_id,model_name,accuracy,macro_precision,macro_recall,macro_f1,weighted_f1,offensive_f1,non_offensive_f1,English_samples,English_accuracy,English_macro_f1,Pashto_samples,Pashto_accuracy,Pashto_macro_f1,Roman Urdu_samples,Roman Urdu_accuracy,Roman Urdu_macro_f1,Urdu_samples,Urdu_accuracy,Urdu_macro_f1
+dl_bilstm,BiLSTM,0.9938,0.9958,0.9878,0.9917,0.9937,0.9958,0.9877,64,1.0,1.0,43,0.9535,0.9522,164,1.0,1.0,49,1.0,1.0

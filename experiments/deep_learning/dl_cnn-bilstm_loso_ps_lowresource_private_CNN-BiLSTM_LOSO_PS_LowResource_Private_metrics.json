@@ -1,0 +1,40 @@
+{
+  "run_id": "dl_cnn-bilstm_loso_ps_lowresource_private",
+  "model_name": "CNN-BiLSTM_LOSO_PS_LowResource_Private",
+  "accuracy": 0.8678,
+  "macro_precision": 0.8658,
+  "macro_recall": 0.868,
+  "macro_f1": 0.8667,
+  "weighted_f1": 0.868,
+  "offensive_f1": 0.8788,
+  "non_offensive_f1": 0.8545,
+  "confusion_matrix": [
+    [
+      47,
+      7
+    ],
+    [
+      9,
+      58
+    ]
+  ],
+  "languages": {
+    "Pashto": {
+      "samples": 121,
+      "accuracy": 0.8678,
+      "macro_f1": 0.8667,
+      "offensive_f1": 0.8788,
+      "non_offensive_f1": 0.8545,
+      "confusion_matrix": [
+        [
+          47,
+          7
+        ],
+        [
+          9,
+          58
+        ]
+      ]
+    }
+  }
+}

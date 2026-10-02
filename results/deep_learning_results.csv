@@ -1,0 +1,5 @@
+family,model,best_epoch,val_macro_f1,accuracy,macro_precision,macro_recall,macro_f1,weighted_f1,offensive_f1,non_offensive_f1,train_time_sec,infer_latency_ms,checkpoint_path,Roman Urdu_macro_f1,English_macro_f1,Urdu_macro_f1,Pashto_macro_f1
+Deep Learning,CNN,1,1.0,0.9938,0.9958,0.9878,0.9917,0.9937,0.9958,0.9877,1.64,0.0881,E:\Github Repos\Dataset-of-Offensive-Language-\checkpoints\deep_learning\CNN.pt,1.0,1.0,1.0,0.9522
+Deep Learning,BiLSTM,3,1.0,0.9938,0.9958,0.9878,0.9917,0.9937,0.9958,0.9877,4.16,0.1647,E:\Github Repos\Dataset-of-Offensive-Language-\checkpoints\deep_learning\BiLSTM.pt,1.0,1.0,1.0,0.9522
+Deep Learning,CNN-BiLSTM,2,1.0,0.9969,0.9979,0.9939,0.9959,0.9969,0.9979,0.9939,4.44,0.148,E:\Github Repos\Dataset-of-Offensive-Language-\checkpoints\deep_learning\CNN-BiLSTM.pt,1.0,1.0,1.0,0.9763
+Deep Learning,Attention-BiLSTM,3,1.0,0.9875,0.9836,0.9836,0.9836,0.9875,0.9916,0.9756,5.44,0.2543,E:\Github Repos\Dataset-of-Offensive-Language-\checkpoints\deep_learning\Attention-BiLSTM.pt,1.0,1.0,1.0,0.9057

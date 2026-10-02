@@ -1,0 +1,10 @@
+family,model,total_params,trainable_params,checkpoint_size_mb,gpu_memory,train_time_sec,infer_latency_ms_per_sample,throughput_samples_per_sec,macro_f1,accuracy
+Traditional ML,Multinomial_Naive_Bayes,2664,2664,0.0944,N/A (CPU-only),0.02,0.0485,20618.56,1.0,1.0
+Traditional ML,Logistic_Regression,1333,1333,0.064,N/A (CPU-only),0.03,0.0333,30030.03,0.9917,0.9938
+Traditional ML,Linear_SVM,1333,1333,0.0639,N/A (CPU-only),0.02,0.0308,32467.53,0.9917,0.9938
+Traditional ML,Random_Forest,9864,9864,0.4531,N/A (CPU-only),0.19,0.108,9259.26,1.0,1.0
+Deep Learning,CNN,126018,126018,0.4837,N/A (CPU-only),1.64,0.297,3367.0,0.9917,0.9938
+Deep Learning,BiLSTM,151298,151298,0.5806,N/A (CPU-only),4.16,1.1664,857.34,0.9917,0.9938
+Deep Learning,CNN-BiLSTM,143170,143170,0.5508,N/A (CPU-only),4.44,1.6403,609.64,0.9959,0.9969
+Deep Learning,Attention-BiLSTM,151426,151426,0.5821,N/A (CPU-only),5.44,2.3464,426.18,0.9836,0.9875
+Transformer,mBERT,110000000,110000000,711.5,N/A (CPU-only),1842.77,108.0169,9.26,0.9836,0.9875

@@ -1,0 +1,57 @@
+# LLM / QLoRA Configuration
+# Target hardware: NVIDIA GPU with CUDA (bitsandbytes 4-bit quantization requirement)
+# Execution environment: Windows 11 x64, CPU-only (CUDA not available)
+
+environment:
+  cuda_available: false
+  reason: "BitsAndBytes 4-bit NF4/FP4 quantization requires NVIDIA CUDA runtime; host environment is CPU-only"
+
+qlora_parameters:
+  quantization: "4-bit (NF4, double quant, bfloat16 compute)"
+  lora_rank_candidates: [8, 16]
+  lora_alpha_candidates: [16, 32]
+  lora_dropout: 0.05
+  target_modules: ["q_proj", "k_proj", "v_proj", "o_proj"]
+  max_seq_length: 128
+  metric_for_best_checkpoint: "macro_f1"
+  prompt_template: |
+    Instruction: Classify the following text into either "offensive" or "non-offensive".
+    Text: {text}
+    Label: 
+
+candidate_models:
+  LLaMA-3.1-8B:
+    exact_checkpoint_id: "meta-llama/Llama-3.1-8B-Instruct"
+    parameter_count: "8.03B"
+    family: "Llama"
+    architecture: "LlamaForCausalLM"
+    verified_hf_hub: true
+    hardware_status: "skipped_cpu_unsupported"
+    hardware_requirement: "NVIDIA GPU >= 16GB VRAM (CUDA 11.8+ / 12.x)"
+
+  Mistral-7B-v0.3:
+    exact_checkpoint_id: "mistralai/Mistral-7B-Instruct-v0.3"
+    parameter_count: "7.25B"
+    family: "Mistral"
+    architecture: "MistralForCausalLM"
+    verified_hf_hub: true
+    hardware_status: "skipped_cpu_unsupported"
+    hardware_requirement: "NVIDIA GPU >= 16GB VRAM (CUDA 11.8+ / 12.x)"
+
+  Qwen2.5-7B:
+    exact_checkpoint_id: "Qwen/Qwen2.5-7B-Instruct"
+    parameter_count: "7.61B"
+    family: "Qwen"
+    architecture: "Qwen2ForCausalLM"
+    verified_hf_hub: true
+    hardware_status: "skipped_cpu_unsupported"
+    hardware_requirement: "NVIDIA GPU >= 16GB VRAM (CUDA 11.8+ / 12.x)"
+
+  Gemma-2-9B:
+    exact_checkpoint_id: "google/gemma-2-9b-it"
+    parameter_count: "9.24B"
+    family: "Gemma"
+    architecture: "Gemma2ForCausalLM"
+    verified_hf_hub: true
+    hardware_status: "skipped_cpu_unsupported"
+    hardware_requirement: "NVIDIA GPU >= 24GB VRAM (CUDA 11.8+ / 12.x)"

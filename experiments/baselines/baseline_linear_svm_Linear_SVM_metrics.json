@@ -1,0 +1,91 @@
+{
+  "run_id": "baseline_linear_svm",
+  "model_name": "Linear_SVM",
+  "accuracy": 0.9938,
+  "macro_precision": 0.9958,
+  "macro_recall": 0.9878,
+  "macro_f1": 0.9917,
+  "weighted_f1": 0.9937,
+  "offensive_f1": 0.9958,
+  "non_offensive_f1": 0.9877,
+  "confusion_matrix": [
+    [
+      80,
+      2
+    ],
+    [
+      0,
+      238
+    ]
+  ],
+  "languages": {
+    "English": {
+      "samples": 64,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "offensive_f1": 1.0,
+      "non_offensive_f1": 1.0,
+      "confusion_matrix": [
+        [
+          19,
+          0
+        ],
+        [
+          0,
+          45
+        ]
+      ]
+    },
+    "Pashto": {
+      "samples": 43,
+      "accuracy": 0.9535,
+      "macro_f1": 0.9522,
+      "offensive_f1": 0.96,
+      "non_offensive_f1": 0.9444,
+      "confusion_matrix": [
+        [
+          17,
+          2
+        ],
+        [
+          0,
+          24
+        ]
+      ]
+    },
+    "Roman Urdu": {
+      "samples": 164,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "offensive_f1": 1.0,
+      "non_offensive_f1": 1.0,
+      "confusion_matrix": [
+        [
+          23,
+          0
+        ],
+        [
+          0,
+          141
+        ]
+      ]
+    },
+    "Urdu": {
+      "samples": 49,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "offensive_f1": 1.0,
+      "non_offensive_f1": 1.0,
+      "confusion_matrix": [
+        [
+          21,
+          0
+        ],
+        [
+          0,
+          28
+        ]
+      ]
+    }
+  }
+}
